@@ -1,0 +1,24 @@
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(30px);
+  }
+}
+
+.bounce-animation {
+  animation: bounce 5s infinite;
+}
+
+.shake-animation {
+animation: shake 4s infinite;
+}

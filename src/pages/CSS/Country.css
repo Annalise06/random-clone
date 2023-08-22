@@ -1,0 +1,8 @@
+.carousel-container {
+  overflow: hidden;
+}
+
+.carousel {
+  animation: scroll 12s linear infinite;
+}
+
