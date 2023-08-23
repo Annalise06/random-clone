@@ -60,11 +60,12 @@ const NavBottom = () => {
       </nav>
       {isMenuOpen && (
         <nav
-          className={`fixed top-0 right-0 w-[60%] ${
-            isMenuOpen ? "translate-x-0" : "translate-x-full"
-          } transition-transform duration-500 ease-in-out bg-white h-full z-10`}
+          className={`fixed top-0 right-0 transform ${
+            isMenuOpen ? "translate-x-0" : "translate-x-full "
+          } transition-transform duration-[3000s] ease-in-out bg-white w-full h-full z-20`}
         >
-          <div className="flex justify-end p-3">
+          <div className="">
+             <div className="flex justify-end p-3">
             <button className="text-black text-2xl" onClick={toggleMenu}>
               <MdCancel size={30} className="" />
             </button>
@@ -101,6 +102,8 @@ const NavBottom = () => {
               </a>
             </li>
           </ul>
+          </div>
+         
         </nav>
       )}
     </div>
