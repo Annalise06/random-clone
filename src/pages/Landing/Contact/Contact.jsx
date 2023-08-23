@@ -3,6 +3,7 @@ import NavBottom from "../../../components/Common/NavBottom";
 import HomeNav from "../../../components/Common/NavTop";
 import Hero from "./Hero";
 import Footer from "../../../components/Common/Footer";
+import Section from "./Section";
 
 const Contact = () => {
   return (
@@ -13,6 +14,7 @@ const Contact = () => {
           <NavBottom />
         </div>
         <Hero />
+        <Section/>
        <Footer />
       </div>
     </div>
