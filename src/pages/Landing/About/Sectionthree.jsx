@@ -17,8 +17,8 @@ const Sectionthree = () => {
         <div className="absolute bottom-0 opacity-20">
           <img src={bg} alt="" />
         </div>
-        <div className="md:flex gap-10 opacity-100 justify-center px-10">
-          <div className="flex border border-l-0 w-fit gap-7 border-opacity-100  py-5 px-10 border-white">
+        <div className="md:flex md:flex-row flex flex-col gap-10 opacity-100 justify-center px-10">
+          <div className="flex border border-l-0 w-full md:w-fit gap-7 border-opacity-100  py-5 px-10 border-white">
             <div>
               <img src={icon1} alt="" />
             </div>
@@ -31,40 +31,40 @@ const Sectionthree = () => {
               <p className="font-semibold">Visa Categories</p>
             </div>
           </div>
-          <div className="flex border border-l-0 w-fit gap-7 border-opacity-100  py-5 px-10 border-white">
+          <div className="flex border border-l-0 md:w-fit w-full gap-7 border-opacity-100  py-5 px-10 border-white">
             <div>
               <img src={icon1} alt="" />
             </div>
             <div>
               <p className=" text-xl tracking-wider font-semibold">
                 <span className="font-bold text-3xl">
-                  30<span>+</span>{" "}
+                  68<span>k</span>{" "}
                 </span>
               </p>
               <p className="font-semibold">Visa Process</p>
             </div>
           </div>
-          <div className="flex border border-l-0 w-fit gap-7 border-opacity-100  py-5 px-10 border-white">
+          <div className="flex border border-l-0 md:w-fit w-full gap-7 border-opacity-100  py-5 px-10 border-white">
             <div>
               <img src={icon1} alt="" />
             </div>
             <div>
               <p className=" text-xl tracking-wider font-semibold">
                 <span className="font-bold text-3xl">
-                  30<span>+</span>{" "}
+                  90<span>+</span>{" "}
                 </span>
               </p>
               <p className="font-semibold">Success Rate</p>
             </div>
           </div>
-          <div className="flex border border-l-0 w-fit gap-7 border-opacity-100  py-5 px-10 border-white">
+          <div className="flex border border-l-0 md:w-fit w-full gap-7 border-opacity-100  py-5 px-10 border-white">
             <div>
               <img src={icon1} alt="" />
             </div>
             <div>
               <p className=" text-xl tracking-wider font-semibold">
                 <span className="font-bold text-3xl">
-                  30<span>+</span>{" "}
+                  28<span>+</span>{" "}
                 </span>
               </p>
               <p className="font-semibold">Pro Consultants</p>

@@ -41,7 +41,7 @@ const NavBottom = () => {
                   <a href="/">Blog</a>
                 </li>
                 <li>
-                  <a href="/">Contact</a>
+                  <a href="/public/contact">Contact</a>
                 </li>
               </ul>
             </div>

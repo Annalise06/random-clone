@@ -9,6 +9,7 @@ import Stamp from "./pages/Landing/Home/Ratiings/Stamp";
 import Text from "./pages/Landing/Home/Ratiings/text";
 import Test from "./pages/helpers/Test";
 import About from "./pages/Landing/About/About";
+import Contact from "./pages/Landing/Contact/Contact";
 const App = () => {
   const { email } = useSelector((state) => state.auth.user_details);
   const props = { email };
@@ -19,6 +20,8 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="testing" element={<Test />} />
         <Route path="/public/about" element={<About />} />
+        <Route path="/public/contact" element={<Contact />} />
+
         {/* <Route path="public/about" element={<About />} />
         <Route path="public/markets" element={<Market />} />
         <Route path="/public/login" element={<Loginx />} />
