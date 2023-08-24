@@ -10,6 +10,7 @@ import Text from "./pages/Landing/Home/Ratiings/text";
 import Test from "./pages/helpers/Test";
 import About from "./pages/Landing/About/About";
 import Contact from "./pages/Landing/Contact/Contact";
+import Visa from "./pages/Landing/Visa/Visa";
 const App = () => {
   const { email } = useSelector((state) => state.auth.user_details);
   const props = { email };
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="testing" element={<Test />} />
         <Route path="/public/about" element={<About />} />
         <Route path="/public/contact" element={<Contact />} />
+        <Route path="/public/visa" element={<Visa />} />
 
         {/* <Route path="public/about" element={<About />} />
         <Route path="public/markets" element={<Market />} />

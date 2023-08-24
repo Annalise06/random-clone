@@ -29,6 +29,7 @@ const Excellence = () => {
                 position: absolute;
                 padding: 0;
                 margin-top: 32px;
+                
                 border-right: 0;
                 border-top: 28px solid transparent;
                 border-left: 13px solid black;
