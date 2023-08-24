@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import bg from "../../../images/faq-one-bg.jpg";
 import { BsPlus } from "react-icons/bs";
+import { BiShieldQuarter } from "react-icons/bi";
 
 const Collapse = ({ title, children }) => {
   const [collapsed, setCollapsed] = useState(true);
@@ -37,15 +38,31 @@ const Collapse = ({ title, children }) => {
 const Questions = () => {
   return (
     <div>
-      <div className="md:flex w-full lg:h-screen pb-20 md:pb-0 bg-white">
+      <div className="md:flex w-full font-roman lg:h-screen pb-20 md:pb-0 bg-white">
         {/* <div
           className="lg:w-[45%] lg:h-[90vh] h-[50%] w-full bg-contain bg-no-repeat"
           style={{
             backgroundImage: `url(${bg})`,
           }}
         > */}
-        <img className="lg:w-[45%] lg:h-[90vh]" src={bg} alt="" />
+        <div className="relative">
+          <img className="lg:w-[45%f] lg:h-[90vh]" src={bg} alt="" />
+          <div className="hiddefn absolute bg-[#202094] md:py-10 md:px-10 px-5 py-10 md:w-[80%] h-full md:h-[90vh] top-0 bg-opacity-70 right-0">
+            <div className="bg-black w-24 h-24 flex justify-center rounded-full ">
+              <BiShieldQuarter size={60} className="text-white mt-4" />
+            </div>
+            <p className="text-white md:text-5xl mt-5 text-2xl font-semibold">
+              Most Trusted Visa & Immigration Agency!
+            </p>
+            <div className="mt-5">
+              <button className="text-white bg-black hover:underline hover:text-gray-400 hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3">
+                Discover More
+              </button>
+            </div>
+          </div>
+        </div>
         {/* </div> */}
+
         <div className="md:w-1/2 ">
           <div className="md:px-20 pt-10 md:pt-32 text-center md:text-left">
             <p className="text-sm tracking-widest text-gray-500 uppercase">
