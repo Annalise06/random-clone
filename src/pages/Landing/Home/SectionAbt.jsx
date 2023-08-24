@@ -39,8 +39,7 @@ const Abt = () => {
               ABOUT TRECK AGENCY
             </p>
             <div className="relative my-5 w-10 bg-red-500 h-[2px]">
-              {" "}
-              <div className="absolute -top-[3.5px] bg-white left-4 w-2 h-2 rounded-full border border-red-500"></div>
+              <div className="absolute -top-[3px] bg-white vleft-4 w-2 h-2 rounded-full border border-red-500 shake-animation"></div>
             </div>
             <h1 className="lg:text-5xl text-2xl font-semibold lg:w-[33rem] text-black">
               Providing the Best Visa Services to Clients

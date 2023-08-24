@@ -13,15 +13,15 @@ const Hero = () => {
         <div data-aos="fade-up" data-aos-duration="2000">
           <div className="md:flex md:gap-5 mt-10">
             <div className="flex gap-2">
-              <BsCheck className="text-[#3636cc] bg-whifte rounfded-full mt-1" />
+              <BsCheck className="text-[#3636cc] md:bg-white md:rounded-full mt-1" />
               <p>No Interviews</p>
             </div>
             <div className="flex gap-2 md:my-0 my-3">
-              <BsCheck className="text-[#3636cc] bg-whifte rounfded-full mt-1" />
+              <BsCheck className="text-[#3636cc] md:bg-white md:rounded-full mt-1" />
               <p>Relocate in 30 Days</p>
             </div>
             <div className="flex gap-2">
-              <BsCheck className="text-[#3636cc] bg-wfhite rounded-fullf mt-1" />
+              <BsCheck className="text-[#3636cc] md:bg-white md:rounded-full mt-1" />
               <p>Affordable Fees</p>
             </div>
           </div>

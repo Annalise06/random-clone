@@ -44,19 +44,19 @@ const Questions = () => {
             backgroundImage: `url(${bg})`,
           }}
         > */}
-          <img className="lg:w-[45%] lg:h-[90vh]" src={bg} alt="" />
+        <img className="lg:w-[45%] lg:h-[90vh]" src={bg} alt="" />
         {/* </div> */}
         <div className="md:w-1/2 ">
           <div className="md:px-20 pt-10 md:pt-32 text-center md:text-left">
             <p className="text-sm tracking-widest text-gray-500 uppercase">
-              Coaching we offer
+              Common Faqs
             </p>
             <div className="flex justify-center md:block py-3 md:py-0">
               <div className="relative my-2 w-10 bg-[#202094] h-[2px]">
-              <div className="absolute -top-[3px] bg-white left-4 w-2 h-2 rounded-full border border-red-500"></div>
+                <div className="absolute -top-[3px] bg-white left-4t w-2 h-2 rounded-full border border-[#202094] shake-animation"></div>
+              </div>
             </div>
-            </div>
-            
+
             <p className="md:text-5xl text-3xl flex font-semibold text-black">
               Frequently Asked Questions?
             </p>

@@ -17,7 +17,7 @@ const Country = () => {
           <div className="flex justify-center">
             <div className="relative my-3 w-10 bg-red-500 h-[2px]">
               {" "}
-              <div className="absolute -top-[3.5px] bg-white left-4 w-2 h-2 rounded-full border border-red-500"></div>
+              <div className="absolute -top-[3px] bg-white vleft-4 w-2 h-2 rounded-full border border-red-500 shake-animation"></div>
             </div>
           </div>
           <h1 className="lg:text-5xl text-2xl font-bold lg:w-[30rem] text-center text-black">

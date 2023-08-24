@@ -42,22 +42,22 @@ const Coaching = () => {
   return (
     <div className="bg-gray-100 py-20 relative">
       <div>
-        <div className="lg:flex md:text-left text-center lg:px-60 w-full">
+        <div className="lg:flex md:text-left  text-center lg:px-60 w-full">
           <div className="">
             <p className="text-sm tracking-widest text-gray-500 uppercase">
               Coaching we offer
             </p>
             <div className="flex justify-center lg:block">
-                <div className="relative my-5 w-10 bg-[#202094] h-[2px]">
-              <div className="absolute -top-[3.5px] bg-white left-4 w-2 h-2 rounded-full border border-red-500"></div>
+              <div className="relative my-5 w-10 bg-[#202094] h-[2px]">
+                <div className="absolute -top-[3px] bg-white left-4t w-2 h-2 rounded-full border border-[#202094] shake-animation"></div>
+              </div>
             </div>
-            </div>
-          
+
             <p className="text-4xl flex font-semibold text-black">
               Get the Best Trainings you Deserve
             </p>
           </div>
-          <div className="lg:w-1/2 pt-5 text-sm text-gray-500">
+          <div className="lg:w-1/2 pt-5 px-5 text-sm text-gray-500">
             There are many variations of passages of available but the majority
             have suffered alteration in some form, by injected hum randomised
             words which don't slightly.
@@ -65,7 +65,7 @@ const Coaching = () => {
         </div>
       </div>
       <div>
-        <div className="md:flex md:flex-row flex flex-col justify-center lg:px-20 mt-10 lg:gap-20 gap-10">
+        <div className="md:flex md:flex-row flex flex-col justify-center px-5 lg:px-20 mt-10 lg:gap-20 gap-10">
           {blockData.map((data, index) => (
             <div
               key={index}
@@ -108,9 +108,7 @@ const Coaching = () => {
                   <div className="">
                     <img className="w-7" src={icon} alt="" />
                   </div>
-                  <p className="text-black font-semibold py-3">
-                    {data.title}
-                  </p>
+                  <p className="text-black font-semibold py-3">{data.title}</p>
                   <p className="text-xs w-[80%]">
                     IELTS is an English language test for study, migration or
                     work
