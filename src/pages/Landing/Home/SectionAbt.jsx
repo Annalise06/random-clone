@@ -35,7 +35,7 @@ const Abt = () => {
             </div>
           </div>
           <div>
-            <p className="text-sm tracking-widest text-gray-500">
+            <p className="text-sm md:pt-0 pt-10 tracking-widest text-gray-500">
               ABOUT TRECK AGENCY
             </p>
             <div className="relative my-5 w-10 bg-red-500 h-[2px]">

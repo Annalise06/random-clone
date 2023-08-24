@@ -13,7 +13,7 @@ const NavBottom = () => {
   };
   return (
     <div className="">
-      <nav className="border-b border-gray-600 bg-[#ff5050  py-5 md:px-10 px-5">
+      <nav className="border-b border-gray-600 bg-[#ff5050  md:py-5 py-7 md:px-10 px-5">
         <div
           className={`fixed top-0 right-0 transform ${
             isMenuOpen ? "translate-x-0" : "translate-x-full"
@@ -53,7 +53,7 @@ const NavBottom = () => {
           </div>
           <div className="md:hidden">
             <button className="text-white" onClick={toggleMenu}>
-              <GiHamburgerMenu size={30} />
+              <GiHamburgerMenu className="mt-2" size={22} />
             </button>
           </div>
         </div>

@@ -7,6 +7,10 @@ import { BrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
 import { store, persistor } from "./Redux/store";
+import 'aos/dist/aos.css'; // Import the AOS CSS
+import AOS from 'aos'; // Import the AOS library
+
+AOS.init(); // Initialize AOS
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={store}>
