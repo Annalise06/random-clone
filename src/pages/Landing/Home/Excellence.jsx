@@ -9,7 +9,7 @@ const Excellence = () => {
     <div className="bg-white pt-10">
       <section className="lg:mx-44">
         <div
-          className="bg-cover relative h-56 overflow-hidden"
+          className="bg-cover relative h-56 via- overflow-hidden"
           style={{
             backgroundImage: `url(${bg})`,
             backgroundColor: "#3636cc",

@@ -15,7 +15,7 @@ const Home = () => {
       <Herox/>
       <Section/>
       <Abt/>
-      <Country/>
+      {/* <Country/> */}
       <Excellence/>
       <Coaching/>
       <Rating/>

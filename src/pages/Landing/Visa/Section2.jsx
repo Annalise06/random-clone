@@ -6,10 +6,13 @@ import abt2 from "../../../images/benefits-two-img-2.jpg";
 import shp1 from "../../../images/about-two-shape-1.png";
 import sun from "../../../images/about-four-shape-2.png";
 import "../../CSS/SectionAbt.css";
+import bg from "../../../images/benefits-two-bg.jpg"
 
 const Section2 = () => {
   return (
-    <div className="bg-gray-100 relative py-20 px-5 lg:px-20 lg:pt-28 lg:pb-44">
+    <div className="bg-gray-900 relative py-20 bg-opacity-20 px-5 lg:px-20 lg:pt-28 lg:pb-44" style={{
+      backgroundImage: `url(${bg})`
+    }}>
       <img
         className="md:flex hidden w-44 absolute bottom-28 md:right-20 opacityb-80 bounce-animation py-10"
         src={sun}

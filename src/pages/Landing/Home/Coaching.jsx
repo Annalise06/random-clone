@@ -4,6 +4,7 @@ import coach2 from "../../../images/coaching-1-2.jpg";
 import coach3 from "../../../images/coaching-1-3.jpg";
 import coach4 from "../../../images/coaching-1-4.jpg";
 import icon from "../../../images/coaching-one-hover-icon.png";
+
 import { BsArrowUpRight, BsArrowDownRight } from "react-icons/bs";
 
 const blockData = [
@@ -48,8 +49,8 @@ const Coaching = () => {
               Coaching we offer
             </p>
             <div className="flex justify-center lg:block">
-              <div className="relative my-5 w-10 bg-[#202094] h-[2px]">
-                <div className="absolute -top-[3px] bg-white left-4t w-2 h-2 rounded-full border border-[#202094] shake-animation"></div>
+              <div className="relative my-5 w-10 bg-roman-red h-[2px]">
+                <div className="absolute -top-[3px] bg-white left-4t w-2 h-2 rounded-full border border-roman-red] shake-animation"></div>
               </div>
             </div>
 
@@ -77,7 +78,7 @@ const Coaching = () => {
               onMouseLeave={() => handleHover(index)}
             >
               <div
-                className={`bg-[#202094] w-full text-white bg-opacity-80 flex absolute bottom-0 md:left-10 left-0 capitalize ${
+                className={`bg-roman-red w-full text-white bg-ophacity-80 flex absolute bottom-0 md:left-10 left-0 capitalize ${
                   hoveredStates[index]
                     ? "opacity-0 transition-opacity duration-300"
                     : ""

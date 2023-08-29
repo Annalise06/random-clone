@@ -81,25 +81,25 @@ const Footer = () => {
               </p>
               <div class="flex gap-4 text-white mt-5">
                 <a
-                  className="border border-blue-600 rounded-full p-1.5"
+                  className="border border-roman-red rounded-full p-1.5"
                   href="https://www.facebook.com/"
                 >
                   <FaFacebook />
                 </a>
                 <a
-                  className="border border-blue-600 rounded-full p-1.5"
+                  className="border border-roman-red rounded-full p-1.5"
                   href="https://www.twitter.com/"
                 >
                   <AiFillTwitterCircle />
                 </a>
                 <a
-                  className="border border-blue-600 rounded-full p-1.5"
+                  className="border border-roman-red rounded-full p-1.5"
                   href="https://www.pinterest.com/"
                 >
                   <FaPinterest />
                 </a>
                 <a
-                  className="border border-blue-600 rounded-full p-1.5"
+                  className="border border-roman-red rounded-full p-1.5"
                   href="https://www.pinterest.com/"
                 >
                   <FaInstagram
@@ -136,17 +136,17 @@ const Footer = () => {
             </div>
             <div className="md:pt-0 pt-10">
               <h2 className="text-sm font-semibold text-white pt-5">Contact</h2>
-              <p className="text-xs flex pt-4 gap-2 text-blue-600">
+              <p className="text-xs flex pt-4 gap-2 text-roman-red">
                 <FaEnvelope className="mt-1" />{" "}
                 <span className="text-gray-500">needhelp@company.com</span>
               </p>
-              <p className="text-xs flex pt-4 gap-2 text-blue-600">
+              <p className="text-xs flex pt-4 gap-2 text-roman-red">
                 <FaMapMarkerAlt className="mt-1" />{" "}
                 <span className="text-gray-500">
                   30 Commercial Road Fratton, Australia
                 </span>
               </p>
-              <p className="text-xs flex pt-4 gap-2 text-blue-600">
+              <p className="text-xs flex pt-4 gap-2 text-roman-red">
                 <MdAccessTimeFilled className="mt-1" />{" "}
                 <span className="text-gray-500">
                   Mon – Sat: 8:00 am to 6:00 pm <br /> Sunday: Closed

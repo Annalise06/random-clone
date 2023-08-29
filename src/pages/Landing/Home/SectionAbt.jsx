@@ -58,7 +58,7 @@ const Abt = () => {
                   </p>
                 </div>
                 <div className="flex gap-2 py-3 md:py-0">
-                  <BsCheck2 className="bg-blue-100 w-8 text-red-500 mt-2 h-8 p-2 rounded-full" />
+                  <BsCheck2 className="bg-blue-100 w-8 text-roman-red mt-2 h-8 p-2 rounded-full" />
                   <p className="text-black font-semibold md:pt-0 pt-3">
                     Ready to Help You in Immigration
                   </p>
@@ -69,10 +69,10 @@ const Abt = () => {
               <div className="flex justify-between">
                 <p>construction</p> <p>90%</p>
               </div>
-              <div className="bg-gradient-to-r from-black to-blue-600 border border-gray-300 py-1"></div>
+              <div className="bg-gradient-to-r from-black via-red-500 to-roman-red border border-gray-300 py-1"></div>
             </div>
             <div className="mt-10">
-              <button className="text-white bg-[#202094] hover:underline hover:text-gray-100 hover:bg-[#202084] hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3">
+              <button className="text-white bg-roman-red hover:underline hover:text-gray-100 hover:bg-roman-red hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3">
                 Discover More
               </button>
             </div>

@@ -1,9 +1,11 @@
 import React from "react";
 import { BsCheck2 } from "react-icons/bs";
-import {AiFillCaretDown} from "react-icons/ai"
-import flag1 from "../../../images/countries-2-1.jpg";
-import flag2 from "../../../images/countries-2-2.jpg";
-import flag3 from "../../../images/countries-2-3.jpg";
+import { AiFillCaretDown } from "react-icons/ai";
+import flag1 from "../../../images/romania.png";
+import flag2 from "../../../images/somebg.webp";
+import flag3 from "../../../images/Revolution.jpg";
+import flag4 from "../../../images/affordable.png";
+import flag5 from "../../../images/theater.png";
 import "../../CSS/Country.css";
 
 const Country = () => {
@@ -12,7 +14,7 @@ const Country = () => {
       <div className="flex justify-center">
         <div>
           <h1 className="text-xs tracking-widest text-center uppercase">
-            Our Country List
+            Our Country
           </h1>
           <div className="flex justify-center">
             <div className="relative my-3 w-10 bg-red-500 h-[2px]">
@@ -21,11 +23,92 @@ const Country = () => {
             </div>
           </div>
           <h1 className="lg:text-5xl text-2xl font-bold lg:w-[30rem] text-center text-black">
-            Select the Country of Your Choice
+            ABOUT ROMANIA
           </h1>
         </div>
       </div>
-      <div className="lg:flex lg:justify-center ">
+      <div className="flex justify-center mt-10">
+        <div className="md:flex md:flex-row flex flex-col justify-cegnter gap-10">
+          <div className="md:w-[40%]">
+            <img src={flag1} className="w-72 rounded-full" alt="" />
+          </div>
+          <div className="md:w-[60%] md:pt-0 pt-10">
+            <div className="">
+              <h1 className="text-black font-roman uppercase md:text-4xl font-bold">
+                Romania
+              </h1>
+              <p className="py-5">
+                Romania is a Country in the East of Europe. There are 27
+                countries in the East of Europe, and Romania is a part of them.
+                As a member state of the Europian Union and a signatory to all
+                European institutions, its laws are European standards, modeled
+                after German, French and English laws. Being a member of the
+                European Union, every certificate or degree issued by a
+                legitimate institution in Romania is recognized and accepted in
+                all the countries of the European Union.{" "}
+                {/* <span className="text-red-600 text-sm hover:underline">
+                  Read more
+                </span> */}
+              </p>
+            </div>
+            <div className="flex gap-5 w-[50%]">
+              <img
+                className="h-[22rem] object-cover object-right w-full"
+                src={flag2}
+                alt=""
+              />
+              <img
+                className="h-[22rem] object-cover object-left w-full"
+                src={flag3}
+                alt=""
+              />
+            </div>
+            <p className="my-5">
+              This means that when you study in Romania, you can practise in any
+              other European country without having to write an exam. You also
+              have easy movement between member countries, whereas life in
+              Romania is very affordable compared to other European countries.
+            </p>
+            <p className=" text-red-500 font-bold">
+              Make Romania your gateway to quality education and get a good
+              eduaction for the fraction of the cost. Make Romania your gateway
+              to Europe
+            </p>
+            <div>
+              <h1 className="text-black font-roman uppercase md:text-4xl font-bold my-5">
+                Why Choose Romania
+              </h1>
+              <p>
+                Choosing Romania for work and educational opportunities offers a
+                multitude of advantages that make it an attractive destination
+                for individuals seeking an accessible and affordable visa. Here
+                are some reasons why Romania might be an excellent choice for
+                your organization specializing in facilitating visa services for
+                work and education:
+              </p>
+              <div className="mt-5 grid grid-cols-2 gap-2">
+                <div className="flex gap-5 border border-gray-300 text-black cursor-pointer rounded-md px-5 py-4 hover:text-red-600 hover:transition-color hover:ease-in-out hover:duration-500 ease-out duration-500">
+                  <div>
+                    <img className="w-14" src={flag4} alt="" />
+                  </div>
+                  <div className="flex justify-center font-semibold pt-4">
+                    <p>Affordable Living Costs</p>
+                  </div>
+                </div>
+                <div className="flex gap-5 border border-gray-300 text-black cursor-pointer rounded-md px-5 py-4 hover:text-red-600 hover:transition-color hover:ease-in-out hover:duration-500 ease-out duration-500">
+                  <div>
+                    <img className="w-14" src={flag4} alt="" />
+                  </div>
+                  <div className="flex justify-center font-semibold pt-4">
+                    <p>Cultural Diversity</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* <div className="lg:flex lg:justify-center ">
         <div class="carousel-container py-10">
           <div class="carouse w-full lg:flex lg:flex-row flex flex-col gap-5">
             <div class="card border border-gray-300 rounded-none p-5">
@@ -135,7 +218,7 @@ const Country = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

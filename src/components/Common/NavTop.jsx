@@ -18,7 +18,7 @@ const HomeNav = () => {
             <ul class="flex gap-10 text-xs text-gray-500 mt-2">
               <li className="flex gap-0.5">
                 <div class="icon icon-svg">
-                  <FaMapMarkerAlt className="mt-1 text-[#3636cc]" />
+                  <FaMapMarkerAlt className="mt-1 text-roman-red" />
                 </div>
                 <div class="mt-0.5">
                   <p>30 Broklyn Golden Street. USA</p>
@@ -26,7 +26,7 @@ const HomeNav = () => {
               </li>
               <li className="flex gap-2">
                 <div class="icon icon-svg">
-                  <FaEnvelope className="mt-1 text-[#3636cc]" />
+                  <FaEnvelope className="mt-1 text-roman-red" />
                 </div>
                 <div class="mt-0.5">
                   <p>
@@ -36,7 +36,7 @@ const HomeNav = () => {
               </li>
               <li className="flex gap-2">
                 <div class="icon icon-svg">
-                  <MdAccessTimeFilled className="mt-1 text-[#3636cc]" />
+                  <MdAccessTimeFilled className="mt-1 text-roman-red" />
                 </div>
                 <div class="mt-0.5">
                   <p>Mon - Fri 8.00 am - 6.00 pm</p>
@@ -62,7 +62,7 @@ const HomeNav = () => {
                 </a>
               </li>
             </ul>
-            <div class="flex bg-[#202094] pr-10">
+            <div class="flex bg-roman-red pr-10">
               <div>
                 <img
                   decoding="async"

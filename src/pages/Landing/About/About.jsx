@@ -2,6 +2,7 @@ import React from "react";
 import NavBottom from "../../../components/Common/NavBottom";
 import HomeNav from "../../../components/Common/NavTop";
 import Hero from "./Hero";
+import Country from "../Home/Country";
 import Abt from "./Section1";
 import Questions from "../Home/Questions";
 import Sectiontwo from "./Sectiontwo";
@@ -19,6 +20,7 @@ const About = () => {
         </div>
         <Hero />
         <Abt/>
+        <Country/>
         <Questions/>
         <Sectiontwo/>
         <Sectionthree/>

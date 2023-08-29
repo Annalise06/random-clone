@@ -7,7 +7,7 @@ import Card from "./HeroCard";
 const Herox = () => {
   return (
     <div
-      className="relative bg-center lg:pb-32  bg-no-repeat"
+      className="relative bg-center lg:pb-44  bg-no-repeat"
       style={{
         backgroundImage: "url(./slider.jpg)",
       }}

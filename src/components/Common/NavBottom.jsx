@@ -29,7 +29,7 @@ const NavBottom = () => {
                   <a href="/">Home</a>
                 </li>
                 <li>
-                  <a href="/">About</a>
+                  <a href="/public/about">About</a>
                 </li>
                 <li>
                   <a href="/">Coaching</a>
@@ -47,7 +47,7 @@ const NavBottom = () => {
             </div>
           </div>
           <div className="hidden md:flex">
-            <button className="text-white bg-transparent hover:bg-[#202094] hover:border-noneh hover:transition hover:ease-in-out hover:duration-1000 ease-out duration-1000 uppercase text-sm border border-gray-500 px-10 py-3">
+            <button className="text-white bg-transparent hover:bg-roman-red hover:border-noneh hover:transition hover:ease-in-out hover:duration-1000 ease-out duration-1000 uppercase text-sm border border-gray-500 px-10 py-3">
               Book Appointment
             </button>
           </div>
@@ -65,45 +65,44 @@ const NavBottom = () => {
           } transition-transform duration-[3000s] ease-in-out bg-white w-full h-full z-20`}
         >
           <div className="">
-             <div className="flex justify-end p-3">
-            <button className="text-black text-2xl" onClick={toggleMenu}>
-              <MdCancel size={30} className="" />
-            </button>
+            <div className="flex justify-end p-3">
+              <button className="text-black text-2xl" onClick={toggleMenu}>
+                <MdCancel size={30} className="" />
+              </button>
+            </div>
+            <ul className="flex flex-col gap-6 px-6 pt-6">
+              <li>
+                <a href="/" className="text-black">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="/" className="text-black">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="/" className="text-black">
+                  Coaching
+                </a>
+              </li>
+              <li>
+                <a href="/" className="text-black">
+                  Shop
+                </a>
+              </li>
+              <li>
+                <a href="/" className="text-black">
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a href="/" className="text-black">
+                  Contact
+                </a>
+              </li>
+            </ul>
           </div>
-          <ul className="flex flex-col gap-6 px-6 pt-6">
-            <li>
-              <a href="/" className="text-black">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="/" className="text-black">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="/" className="text-black">
-                Coaching
-              </a>
-            </li>
-            <li>
-              <a href="/" className="text-black">
-                Shop
-              </a>
-            </li>
-            <li>
-              <a href="/" className="text-black">
-                Blog
-              </a>
-            </li>
-            <li>
-              <a href="/" className="text-black">
-                Contact
-              </a>
-            </li>
-          </ul>
-          </div>
-         
         </nav>
       )}
     </div>

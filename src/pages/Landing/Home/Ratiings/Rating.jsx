@@ -9,17 +9,17 @@ import person4 from "../../../../images/testimonial-one-img-4.png";
 
 const Rating = () => {
   return (
-    <div className="hidden md:flex relative overflow-hidden bg-white py-20">
+    <div className="md:flex relative overflow-hidden bg-white py-20">
       <div className="flex justify-center w-full">
         <div
-          className="bg-gray-100 relative p-10 h-[74vh] bg-no-repeat bg-bottom[0] mx-[13rem] bg-top w-full"
+          className="bg-gray-100 relative p-10 h-[100vh] bg-no-repeat bg-bottom[0] md:mx-[5rem] mx-5 bg-top w-full"
           style={{
             backgroundImage: `url(${bg})`,
             backgroundPosition: "bottom",
           }}
         >
           <div className="flex">
-            <div className="w-[50%]">
+            <div className="md:w-[50%] w-full">
               <div className="flex justify-between">
                 <div>
                   <img src={icon} alt="" />
@@ -32,27 +32,27 @@ const Rating = () => {
                   <GrStar />
                 </div>
               </div>
-              <p className="w-[5g0%]">
-                Thank you for making the process of getting a Canada visa so
+              <p className="md:text-2xl text-lg pt-10">
+                Thank you for making the process of getting a visa to Romania so
                 easy. Your phone and email response was prompt and courteous. I
                 received my passport with the visa one day earlier than I had
                 anticipated.
               </p>
-              <div className="flex justify-between pt-5">
-                <div className="flex gap-5 text-black font-semibold">
-                  <p className="border-t border-gray-600 h-1 w-10 mt-3.5"></p>
+              <div className="md:flex justify-between pt-10 ">
+                <div className="flex gap-6 text-black font-semibold">
+                  <p className="border-t border-gray-600 h-1 w-10 mt-3.5 md:mt-3"></p>
                   <p> Sarah Gilbert</p>
                 </div>
                 <div>
-                  <p className="uppercase text-xs text-gray-400 font-semibold underline">
+                  <p className="uppercase text-center md:text-left text-xs text-gray-400 font-semibold underline">
                     Happy customer
                   </p>
                 </div>
               </div>
             </div>
-            <div className="w-[50%f absolute right-0 bottom-0 -topg-5 bg-purple-500j">
+            <div className="hidden md:flex absolute right-0 bottom-0 -topg-5 bg-purple-500j">
               <img
-                className="w-full bg-red-500j h-[80vh]"
+                className="w-full bg-red-500j h-[110vh]"
                 src={person2}
                 alt=""
               />
