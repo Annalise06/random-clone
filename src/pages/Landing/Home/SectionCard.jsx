@@ -7,7 +7,7 @@ import sun from "../../../images/feature-one-shape-1.png";
 const Section = () => {
   return (
     <div className="bg-gradient-to-b from-white via-white to-gray-100 md:px-10 px-3 py-10 md:py-20 relative">
-      <section>
+      <section className="" data-aos="fade-up" data-aos-duration="1500">
         <div className="">
           <div className="lg:flex lg:flex-row flex flex-col w-full gap-5">
             <div className="relative bg-gray-300 bg-opacity-20 -left-0 py-5 lg:h-fit lg:w-full lgi:w-[430px] mid:w-[200px] wi-[150px]">
