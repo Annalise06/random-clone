@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import Footer from "../../../components/Common/Footer";
 import Section from "./Section1";
 import Section2 from "./Section2";
+import Section3 from "./Section3";
 
 const Visa = () => {
   return (
@@ -17,6 +18,7 @@ const Visa = () => {
         <Hero />
         <Section />
         <Section2/>
+        <Section3/>
         <Footer />
       </div>
     </div>

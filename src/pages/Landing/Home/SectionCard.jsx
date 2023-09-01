@@ -10,7 +10,11 @@ const Section = () => {
       <section className="" data-aos="fade-up" data-aos-duration="1500">
         <div className="">
           <div className="lg:flex lg:flex-row flex flex-col w-full gap-5">
-            <div className="relative bg-gray-300 bg-opacity-20 -left-0 py-5 lg:h-fit lg:w-full lgi:w-[430px] mid:w-[200px] wi-[150px]">
+            <div
+              className="relative bg-gray-300 bg-opacity-20 -left-0 py-5 lg:h-fit lg:w-full lgi:w-[430px] mid:w-[200px] wi-[150px]"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               <div
                 className="absolute inset-0"
                 style={{
@@ -33,7 +37,11 @@ const Section = () => {
                 </button>
               </div>
             </div>
-            <div className="relative bg-gray-300 bg-opacity-20 bg-left py-5 lg:h-fit lg:w-full lgi:w-[430px] mid:w-[200px] wi-[150px]">
+            <div
+              className="relative bg-gray-300 bg-opacity-20 bg-left py-5 lg:h-fit lg:w-full lgi:w-[430px] mid:w-[200px] wi-[150px]"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               <div
                 className="absolute inset-0"
                 style={{
@@ -66,7 +74,11 @@ const Section = () => {
                 </button>
               </div>
             </div>
-            <div className="relative bg-gray-300 py-5 bg-opacity-20 lg:h-fit lg:w-full mid:w-[200px] wi-[150px]">
+            <div
+              className="relative bg-gray-300 py-5 bg-opacity-20 lg:h-fit lg:w-full mid:w-[200px] wi-[150px]"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
               <div
                 className="absolute inset-0"
                 style={{

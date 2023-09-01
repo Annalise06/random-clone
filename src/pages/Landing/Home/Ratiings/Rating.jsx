@@ -50,7 +50,11 @@ const Rating = () => {
                 </div>
               </div>
             </div>
-            <div className="hidden md:flex absolute right-0 bottom-0 -topg-5 bg-purple-500j">
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="2000"
+              className="hidden md:flex absolute right-0 bottom-0 -topg-5 bg-purple-500j"
+            >
               <img
                 className="w-full bg-red-500j h-[110vh]"
                 src={person2}

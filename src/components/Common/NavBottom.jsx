@@ -24,7 +24,7 @@ const NavBottom = () => {
           <div className="flex gap-36">
             <Logo />
             <div className="hidden md:block">
-              <ul className="flex gap-10 mt-2 text-white">
+              <ul className="flex gap-10 mt-2 text-white font-semibold">
                 <li>
                   <a href="/">Home</a>
                 </li>
@@ -47,7 +47,7 @@ const NavBottom = () => {
             </div>
           </div>
           <div className="hidden md:flex">
-            <button className="text-white bg-transparent hover:bg-roman-red hover:border-noneh hover:transition hover:ease-in-out hover:duration-1000 ease-out duration-1000 uppercase text-sm border border-gray-500 px-10 py-3">
+            <button className="text-white font-semibold bg-transparent hover:bg-roman-red hover:border-noneh hover:transition hover:ease-in-out hover:duration-1000 ease-out duration-1000 uppercase text-sm border border-gray-500 px-10 py-3">
               Book Appointment
             </button>
           </div>

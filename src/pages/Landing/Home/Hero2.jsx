@@ -7,12 +7,12 @@ import Card from "./HeroCard";
 const Herox = () => {
   return (
     <div
-      className="relative bg-center lg:pb-44  bg-no-repeat"
+      className="relative bg-center lg:pb-56  bg-no-repeat"
       style={{
         backgroundImage: "url(./slider.jpg)",
       }}
     >
-      <div className="bg-black/60b relative bg-gradient-to-b from-black/90 via-black/60 to-transparent h-screen"></div>
+      <div className="bg-black/60b relative bg-gradient-to-b from-black via-black/70 to-transparent h-screen"></div>
 
       <div className="absolute top-0 w-full">
         <NavTop />

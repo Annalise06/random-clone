@@ -69,6 +69,8 @@ const Coaching = () => {
         <div className="md:flex md:flex-row flex flex-col justify-center px-5 lg:px-20 mt-10 lg:gap-20 gap-10">
           {blockData.map((data, index) => (
             <div
+              data-aos="fade-up"
+              data-aos-duration="2000"
               key={index}
               className="bg-red-50g0 relative overflow-visible md:w-[35%] w-[100%] bg-no-repeat h-56 hovered"
               style={{

@@ -15,14 +15,22 @@ const Abt = () => {
       />
       <section>
         <div className="lg:flex gap-10">
-          <div className="lg:w-[35rem] w-full relative flex justify-center bg-rfed-500">
+          <div
+            data-aos="fade-left"
+            data-aos-duration="1000"
+            className="lg:w-[35rem] w-full relative flex justify-center bg-rfed-500"
+          >
             <img
               className="object-cover relative lg:w-[28rem] w-[20rem] rounded-t-full rounded-bl-full"
               src={abt1}
               alt=""
             />{" "}
             <div className="border-[6px] lg:w-[28rem] w-[20rem] lg:left-8 -left-1 rounded-t-full rounded-br-full h-full top-0 border-red-600 absolute"></div>
-            <div className="get absolute bottom-16 -left-10  bg-white">
+            <div
+              data-aos="fade-right"
+              data-aos-duration="1000"
+              className="get absolute bottom-16 -left-10  bg-white"
+            >
               <img
                 className="w-14 bg-transparent bg-clip-border absolute top-0 left-0"
                 src={shp1}

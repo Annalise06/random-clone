@@ -3,7 +3,7 @@ import { BiCheck } from "react-icons/bi";
 
 const Hero = () => {
   return (
-    <div className="flex md:px-36 font-roman px-4 md:pt-24 pt-[13rem] text-white">
+    <div className="flex md:px-36 font-roman px-4 md:pt-40 pt-[13rem] text-white">
       <div>
         <div data-aos="fade-down" data-aos-duration="2000">
           <h1 className="md:text-[5rem] text-4xl md:leading-[5rem] leading-[50px] font-semibold tracking-wider capitalize">

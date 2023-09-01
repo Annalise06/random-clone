@@ -15,7 +15,7 @@ const HomeNav = () => {
       <div class="hidden md:block bg-black pl-10">
         <div class="flex justify-between">
           <div class="">
-            <ul class="flex gap-10 text-xs text-gray-500 mt-2">
+            <ul class="flex gap-10 text-sm font-semibold text-gray-500 mt-2">
               <li className="flex gap-0.5">
                 <div class="icon icon-svg">
                   <FaMapMarkerAlt className="mt-1 text-roman-red" />
@@ -45,7 +45,7 @@ const HomeNav = () => {
             </ul>
           </div>
           <div class="flex gap-20">
-            <ul class="flex gap-10 mt-3 text-xs">
+            <ul class="flex gap-10 mt-3 text-sm ">
               <li>
                 <a class="" href="https://bracketweb.com/treckwp/login/">
                   Login
