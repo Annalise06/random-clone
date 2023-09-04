@@ -11,22 +11,25 @@ const blockData = [
   {
     image: coach1,
     title: "Citizenship Test",
-    content: "IELTS is an English language test for study, migration or work",
+    content:
+      "Master your knowledge and skills to achieve citizenship. Our comprehensive test prep program ensures your success.",
   },
   {
     image: coach2,
-    title: "IELTS Coaching",
-    content: "IELTS is an English language test for study, migration or work",
+    title: "B.SC Coaching",
+    content:
+      "Ignite your passion for science, technology, and innovation with our Bachelor of Science programs. Join us to explore the fascinating world of possibilities.",
   },
   {
     image: coach3,
-    title: "TOEFL Coaching",
+    title: "Masters Coaching",
     content: "IELTS is an English language test for study, migration or work",
   },
   {
     image: coach4,
-    title: "PTE Coaching",
-    content: "IELTS is an English language test for study, migration or work",
+    title: "Part-Time Jobs",
+    content:
+      "International students can work part-time in Romania, if they possess a valid residence permit",
   },
 ];
 
@@ -112,9 +115,8 @@ const Coaching = () => {
                     <img className="w-7" src={icon} alt="" />
                   </div>
                   <p className="text-black font-semibold py-3">{data.title}</p>
-                  <p className="text-xs w-[80%]">
-                    IELTS is an English language test for study, migration or
-                    work
+                  <p className="text-2xs w-[90%]">
+                    {data.content}
                   </p>
                   <div className="flex relative justify-endf mt-5">
                     <BsArrowDownRight className="absolute right-5 bottom-0" />
