@@ -17,7 +17,7 @@ const Hero = () => {
         >
           <h1 className="text-4xl font-semibold mt-44 tracking-wider">About</h1>
         </div>
-        <div className="md:mt-24 mt-32 md:px-10 px-5">
+        <div className="md:mt-24 mt-40 md:px-10 px-5">
           <p data-aos="zoom-in" data-aos-duration="2000">
             <span>Romania</span> / <span>About</span>
           </p>

@@ -4,6 +4,7 @@ import abt1 from "../../../images/about-two-img-1.jpg";
 import shp1 from "../../../images/about-two-shape-1.png";
 import sun from "../../../images/about-two-shape-2.png";
 import "../../CSS/SectionAbt.css";
+import { Link } from "react-router-dom";
 
 const Abt = () => {
   return (
@@ -80,9 +81,12 @@ const Abt = () => {
               <div className="bg-gradient-to-r from-black via-red-500 to-roman-red border border-gray-300 py-1"></div>
             </div>
             <div className="mt-10">
+              <Link to="/public/about">
               <button className="text-white bg-roman-red hover:underline hover:text-gray-100 hover:bg-roman-red hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3">
                 Discover More
               </button>
+              </Link>
+              
             </div>
           </div>
         </div>

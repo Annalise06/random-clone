@@ -13,7 +13,7 @@ const Hero = () => {
           <div className='flex justify-center'>
             <h1 className='text-4xl font-semibold mt-44 tracking-wider'>Contact</h1>
           </div>
-          <div className='mt-24 px-10'>
+          <div className='mt-40 md:px-10 px-5'>
             <p>
               <span>Romania</span> / <span>Contact</span>
             </p>

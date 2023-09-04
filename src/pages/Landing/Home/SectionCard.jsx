@@ -3,6 +3,7 @@ import C1 from "../../../images/feature-1-1.png";
 import C2 from "../../../images/feature-1-2.png";
 import C3 from "../../../images/feature-1-3.png";
 import sun from "../../../images/feature-one-shape-1.png";
+import { Link } from "react-router-dom";
 
 const Section = () => {
   return (
@@ -32,9 +33,10 @@ const Section = () => {
                     Apply Online for New Visa
                   </p>
                 </div>
-                <button className="bg-white hover:bg-red-500 hover:text-white hover:bg-transition hover:ease-in-out hover:duration-700 ease-out duration-700 px-10 py-3">
+                <Link to="/public/visa"><button className="bg-white hover:bg-red-500 hover:text-white hover:bg-transition hover:ease-in-out hover:duration-700 ease-out duration-700 px-10 py-3">
                   Learn More
-                </button>
+                </button></Link>
+                
               </div>
             </div>
             <div

@@ -54,7 +54,7 @@ const Coaching = () => {
               </div>
             </div>
 
-            <p className="text-4xl flex font-semibold text-black">
+            <p className="md:text-4xl text-2xl px-3 flex font-semibold text-black">
               Get the Best Trainings you Deserve
             </p>
           </div>
