@@ -70,7 +70,7 @@ const Country = ({ src, alt }) => {
                 </span> */}
               </p>
             </div>
-            <div className="flex gap-10 w-[50h%]">
+            <div className="md:flex md:flex-row flex flex-col gap-10 w-[50h%]">
               <div className="w-full overflow-hidden">
                 <img
                   className="h-[22rem] object-cover object-right w-[90h%] transition-transform transform-origin-left hover:scale-110 hover:ease-gin-out hover:duration-500 duration-500 hover:overflow-hidden"

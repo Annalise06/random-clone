@@ -16,14 +16,14 @@ const About = () => {
       {" "}
       <HomeNav />
       <div
-        className="bg-congtain w-full h-[29rem] bg-top bg-cover bg-no-repeat"
+        className="bg-congtain w-full md:h-[29rem] h-[75vh] bg-top bg-cover bg-no-repeat"
         style={{
           backgroundImage: `url(${bg})`,
         }}
       >
-        <div className="bg-black/40 ">
+        <div className="bg-gradient-to-b from-black via-black/70 to-transparent">
           <NavBottom />
-          <Hero/>
+          <Hero />
         </div>
         <Abt />
         <Country />

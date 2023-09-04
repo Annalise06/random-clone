@@ -13,7 +13,7 @@ const NavBottom = () => {
   };
   return (
     <div className="">
-      <nav className="border-b border-gray-600 bg-[#ff5050  md:py-5 py-7 md:px-10 px-5">
+      <nav className="border-b border-gray-600 border-opacity-40 bg-[#ff5050  md:py-5 py-7 md:px-10 px-5">
         <div
           className={`fixed top-0 right-0 transform ${
             isMenuOpen ? "translate-x-0" : "translate-x-full"
@@ -77,7 +77,7 @@ const NavBottom = () => {
                 </a>
               </li>
               <li>
-                <a href="/" className="text-black">
+                <a href="/public/about" className="text-black">
                   About
                 </a>
               </li>
