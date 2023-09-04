@@ -13,11 +13,11 @@ const Abt = () => {
         src={sun}
         alt=""
       />
-      <section>
+      <section data-aos="fade-up" data-aos-duration="1000">
         <div className="lg:flex gap-10">
           <div
             data-aos="fade-left"
-            data-aos-duration="1000"
+            data-aos-duration="2000"
             className="lg:w-[35rem] w-full relative flex justify-center bg-rfed-500"
           >
             <img

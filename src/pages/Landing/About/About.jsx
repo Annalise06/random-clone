@@ -8,23 +8,29 @@ import Questions from "../Home/Questions";
 import Sectiontwo from "./Sectiontwo";
 import Sectionthree from "./Sectionthree";
 import Footer from "../../../components/Common/Footer";
-
+import bg from "../../../images/about-header-bg.jpg";
 
 const About = () => {
   return (
     <div>
-      <div>
-        <div className="bg-black/20">
-          <HomeNav />
+      {" "}
+      <HomeNav />
+      <div
+        className="bg-congtain w-full h-[29rem] bg-top bg-cover bg-no-repeat"
+        style={{
+          backgroundImage: `url(${bg})`,
+        }}
+      >
+        <div className="bg-black/40 ">
           <NavBottom />
+          <Hero/>
         </div>
-        <Hero />
-        <Abt/>
-        <Country/>
-        <Questions/>
-        <Sectiontwo/>
-        <Sectionthree/>
-        <Footer/>
+        <Abt />
+        <Country />
+        <Questions />
+        <Sectiontwo />
+        <Sectionthree />
+        <Footer />
       </div>
     </div>
   );

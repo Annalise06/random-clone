@@ -20,23 +20,31 @@ const Abt = () => {
         <div className="lg:flex lg:flex-row-reverse block gap-10">
           <div className="lg:w-[35rem] gap-5 w-full relative flex justify-center">
             <img
+              data-aos="flip-left"
+              data-aos-duration="1000"
               className="object-cover object-right relative lg:w-[28jrem] w-[20rem]"
               src={abt1}
               alt=""
             />{" "}
             <img
+              data-aos="flip-left"
+              data-aos-duration="2000"
               className="md:flex hidden object-cover object-left top-20 relative lg:w-[28jrem] w-[20rem]"
               src={abt2}
               alt=""
             />{" "}
             {/* <div className="border-[6px] lg:w-[28rem] w-[20rem] lg:left-8 -left-1 rounded-t-full rounded-br-full h-full top-0 border-red-600 absolute"></div> */}
-            <div className="get absolute bottom-3 bg-gray-50">
+            <div data-aos="zoom-in"
+                data-aos-duration="1000" className="get absolute bottom-3 bg-gray-50">
               <img
                 className="w-20 bg-transparent bg-clip-border absolute top-0 left-0"
                 src={shp1}
                 alt=""
               />
-              <div className="flex flex-col text-center px-10 py-4 bg-clip-contfent ">
+              <div
+                
+                className="flex flex-col text-center px-10 py-4 bg-clip-contfent "
+              >
                 <span className="text-3xl font-bold text-red-600">28</span>{" "}
                 <span>Years of Experience</span>
               </div>

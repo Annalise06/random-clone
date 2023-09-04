@@ -1,16 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import { BsCheck2 } from "react-icons/bs";
 import { AiFillCaretDown } from "react-icons/ai";
-import flag1 from "../../../images/romania.png";
+import flag1 from "../../../images/Romania.jpg";
 import flag2 from "../../../images/somebg.webp";
 import flag3 from "../../../images/Revolution.jpg";
 import flag4 from "../../../images/affordable.png";
 import flag5 from "../../../images/theater.png";
+import slider from "../../../images/site-footer-map-1.png";
 import "../../CSS/Country.css";
 
-const Country = () => {
+const Country = ({ src, alt }) => {
+  const [zoomed, setZoomed] = useState(false);
+
+  const handleZoomClick = () => {
+    setZoomed(!zoomed);
+  };
   return (
-    <div className="bg-white py-10 px-5">
+    <div className="bg-rfoman-red bg-white md:py-20 py-10 px-5 md:px-32 bg-no-repeat bg-contain bg-opacity-5d0 bg-transparrent text-whfite" style={{
+      backgroundImage: `url(${slider}`,
+      opacity: 1
+      
+    }}>
       <div className="flex justify-center">
         <div>
           <h1 className="text-xs tracking-widest text-center uppercase">
@@ -28,16 +38,25 @@ const Country = () => {
         </div>
       </div>
       <div className="flex justify-center mt-10">
-        <div className="md:flex md:flex-row flex flex-col justify-cegnter gap-10">
-          <div className="md:w-[40%]">
-            <img src={flag1} className="w-72 rounded-full" alt="" />
+        <div className="md:flex md:flex-row-reverse flex flex-col justify-center gap-10">
+          <div className="md:w-[40%] relative">
+            <div className=" flex justify-center mt-20">
+              <img src={flag1} className="w-72 zh-10 rounded-full" alt="" />
+            </div>
+            <div className="absolute top-72 left-24">
+              <img
+                src={slider}
+                className="bg-redv-500 w-[25rem] bounce-animation"
+                alt=""
+              />
+            </div>
           </div>
-          <div className="md:w-[60%] md:pt-0 pt-10">
+          <div className="md:w-[60%] md:pt-0 pt-h10">
             <div className="">
-              <h1 className="text-black font-roman uppercase md:text-4xl font-bold">
+              {/* <h1 className="text-black font-roman uppercase md:text-4xl font-bold">
                 Romania
-              </h1>
-              <p className="py-5">
+              </h1> */}
+              <p className="py-5 text-center md:text-left">
                 Romania is a Country in the East of Europe. There are 27
                 countries in the East of Europe, and Romania is a part of them.
                 As a member state of the Europian Union and a signatory to all
@@ -51,17 +70,22 @@ const Country = () => {
                 </span> */}
               </p>
             </div>
-            <div className="flex gap-5 w-[50%]">
-              <img
-                className="h-[22rem] object-cover object-right w-full"
-                src={flag2}
-                alt=""
-              />
-              <img
-                className="h-[22rem] object-cover object-left w-full"
-                src={flag3}
-                alt=""
-              />
+            <div className="flex gap-10 w-[50h%]">
+              <div className="w-full overflow-hidden">
+                <img
+                  className="h-[22rem] object-cover object-right w-[90h%] transition-transform transform-origin-left hover:scale-110 hover:ease-gin-out hover:duration-500 duration-500 hover:overflow-hidden"
+                  src={flag2}
+                  alt=""
+                />
+              </div>
+
+              <div className="w-full overflow-hidden">
+                <img
+                  className="h-[22rem] object-cover object-left w-[9h0%] transition-transform transform-origin-left hover:scale-110 hover:ease-gin-out hover:duration-500 duration-500 hover:overflow-hidden"
+                  src={flag3}
+                  alt={alt}
+                />
+              </div>
             </div>
             <p className="my-5">
               This means that when you study in Romania, you can practise in any
@@ -69,7 +93,7 @@ const Country = () => {
               have easy movement between member countries, whereas life in
               Romania is very affordable compared to other European countries.
             </p>
-            <p className=" text-red-500 font-bold">
+            <p className=" text-yellow-400 font-bold">
               Make Romania your gateway to quality education and get a good
               eduaction for the fraction of the cost. Make Romania your gateway
               to Europe
@@ -86,7 +110,7 @@ const Country = () => {
                 your organization specializing in facilitating visa services for
                 work and education:
               </p>
-              <div className="mt-5 grid grid-cols-2 gap-2">
+              <div className="mt-5 grid grid-cols-1 md:grid md:grid-cols-2 gap-2">
                 <div className="flex gap-5 border border-gray-300 text-black cursor-pointer rounded-md px-5 py-4 hover:text-red-600 hover:transition-color hover:ease-in-out hover:duration-500 ease-out duration-500">
                   <div>
                     <img className="w-14" src={flag4} alt="" />

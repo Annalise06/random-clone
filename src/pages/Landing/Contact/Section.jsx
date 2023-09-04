@@ -4,11 +4,7 @@ import bg from "../../../images/testimonial-one-bg.png"
 const Section = () => {
   return (
     <div
-      className="bg-gray-100 md:py-20 py-10 bg-no-repeat bg-bottom h-full"
-      // style={{
-      //   backgroundImage: `url(${bg})`,
-      //   backgroundColor: "rgba(255, 255, 255, 0.5)",
-      // }}
+      className="relative bg-gray-100 md:py-20 py-10 bg-no-repeat bg-bottom h-fit"
     >
       <div className="px-5">
         <div>

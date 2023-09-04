@@ -32,16 +32,16 @@ const NavBottom = () => {
                   <a href="/public/about">About</a>
                 </li>
                 <li>
-                  <a href="/">Coaching</a>
+                  <a href="/">Admissions</a>
                 </li>
                 <li>
-                  <a href="/">Shop</a>
-                </li>
-                <li>
-                  <a href="/">Blog</a>
-                </li>
+                  <a href="/public/visa">Visa</a>
+                </li>{" "}
                 <li>
                   <a href="/public/contact">Contact</a>
+                </li>{" "}
+                <li>
+                  <a href="/">FAQ</a>
                 </li>
               </ul>
             </div>
@@ -82,23 +82,23 @@ const NavBottom = () => {
                 </a>
               </li>
               <li>
-                <a href="/" className="text-black">
-                  Coaching
+                <a href="/public/admissions" className="text-black">
+                  Admissioms
                 </a>
               </li>
               <li>
-                <a href="/" className="text-black">
-                  Shop
+                <a href="/public/visa" className="text-black">
+                  Visa
                 </a>
               </li>
               <li>
-                <a href="/" className="text-black">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="/" className="text-black">
+                <a href="/public/contact" className="text-black">
                   Contact
+                </a>
+              </li>
+              <li>
+                <a href="/public/frequently-asked-questions" className="text-black">
+                  FAQ
                 </a>
               </li>
             </ul>
