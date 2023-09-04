@@ -50,13 +50,13 @@ const Abt = () => {
               </div>
             </div>
           </div>
-          <div className="md:pt-10 pt-0 z-10">
+          <div className="md:pt-10 pt-5 z-10">
             <p className="text-sm tracking-widest uppercase text-gray-500">
               ABOUT Romania AGENCY
             </p>
             <div className="relative my-5 w-10 bg-red-500 h-[2px]">
               {" "}
-              <div className="absolute -top-[3.5px] bg-white left-4 w-2 h-2 rounded-full border border-red-500"></div>
+              <div className="absolute -top-[3.5px] bg-white lefgt-4 w-2 h-2 rounded-full border border-red-500 shake-animation"></div>
             </div>
             <h1 className="lg:text-5xl text-2xl font-semibold lg:w-[33rem] text-black">
               Leading Visa & Immigration Agency

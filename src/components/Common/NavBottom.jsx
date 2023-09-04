@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { FaGlobeAmericas } from "react-icons/fa";
 import { GiHamburgerMenu, GiCancel } from "react-icons/gi";
 import { MdCancel } from "react-icons/md";
+import { BsArrowRightSquareFill, BsTelephoneFill } from "react-icons/bs";
+import { AiFillMessage } from "react-icons/ai";
+// import "./Nav.css";
 
 import Logo from "./Logo";
 
@@ -11,14 +14,16 @@ const NavBottom = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+  console.log("clicked toggle", isMenuOpen);
+
   return (
     <div className="">
-      <nav className="border-b border-gray-600 border-opacity-40 bg-[#ff5050  md:py-5 py-7 md:px-10 px-5">
+      <nav className="border-b border-gray-600 border-opacity-40 bg-[#ff5050  md:py-5 py-7 md:px-10 pr-5">
         <div
-          className={`fixed top-0 right-0 transform ${
-            isMenuOpen ? "translate-x-0" : "translate-x-full"
-          } transition-transform duration-500 ease-in-out bg-black bg-opacity-50 h-full w-full z-10`}
-          onClick={toggleMenu}
+          className={`fixed top-0 left-0 transform ${
+            isMenuOpen ? "translate-x-0 left-0" : "translate-x-full left-0"
+          } left-0 transition-transform duration-500 ease-in-out bg-black bg-opacity-50 h-full w-full z-10`}
+          // onClick={toggleMenu}
         ></div>
         <div className="flex justify-between">
           <div className="flex gap-36">
@@ -52,7 +57,7 @@ const NavBottom = () => {
             </button>
           </div>
           <div className="md:hidden">
-            <button className="text-white" onClick={toggleMenu}>
+            <button className="text-roman-red" onClick={toggleMenu}>
               <GiHamburgerMenu className="mt-2" size={22} />
             </button>
           </div>
@@ -60,48 +65,93 @@ const NavBottom = () => {
       </nav>
       {isMenuOpen && (
         <nav
-          className={`fixed top-0 right-0 transform ${
-            isMenuOpen ? "translate-x-0" : "translate-x-full "
-          } transition-transform duration-[3000s] ease-in-out bg-white w-full h-full z-20`}
+          className={`fixed top-0 left-0 transform ${
+            isMenuOpen ? "translate-x-0" : "translate-x-full"
+          }  transition-transform duration-[5000s] ease-in-out bg-black h-full w-[80%] z-20`}
+          onClick={toggleMenu}
         >
-          <div className="">
-            <div className="flex justify-end p-3">
-              <button className="text-black text-2xl" onClick={toggleMenu}>
-                <MdCancel size={30} className="" />
-              </button>
+          <div className="pt-3">
+            <div className="flex justify-between">
+              <div className="pt-3">
+                <Logo />
+              </div>
+              <div className="flex justify-end p-3">
+                <button className="text-white text-2xl" onClick={toggleMenu}>
+                  <MdCancel size={30} className="" />
+                </button>
+              </div>
             </div>
-            <ul className="flex flex-col gap-6 px-6 pt-6">
+
+            <ul className="flex flex-col text-white gap-10 px-6 pt-10">
               <li>
-                <a href="/" className="text-black">
-                  Home
+                <a href="/" className="flex justify-between">
+                  <p>Home</p>
+                  <BsArrowRightSquareFill
+                    className="text-roman-red"
+                    size={25}
+                  />
                 </a>
               </li>
               <li>
-                <a href="/public/about" className="text-black">
-                  About
+                <a href="/public/about" className="flex justify-between">
+                  <p>About</p>
+                  <BsArrowRightSquareFill
+                    className="text-roman-red"
+                    size={25}
+                  />
                 </a>
               </li>
               <li>
-                <a href="/public/admissions" className="text-black">
-                  Admissioms
+                <a href="/public/admissions" className="flex justify-between">
+                  <p>Admissions</p>
+                  <BsArrowRightSquareFill
+                    className="text-roman-red"
+                    size={25}
+                  />
                 </a>
               </li>
               <li>
-                <a href="/public/visa" className="text-black">
-                  Visa
+                <a href="/public/visa" className="flex justify-between">
+                  <p>Visa</p>
+                  <BsArrowRightSquareFill
+                    className="text-roman-red"
+                    size={25}
+                  />
                 </a>
               </li>
               <li>
-                <a href="/public/contact" className="text-black">
-                  Contact
+                <a href="/public/contact" className="flex justify-between">
+                  <p>Contact</p>
+                  <BsArrowRightSquareFill
+                    className="text-roman-red"
+                    size={25}
+                  />
                 </a>
               </li>
               <li>
-                <a href="/public/frequently-asked-questions" className="text-black">
-                  FAQ
+                <a
+                  href="/public/frequently-asked-questions"
+                  className="flex justify-between"
+                >
+                  <p>FAQ</p>
+                  <BsArrowRightSquareFill
+                    className="text-roman-red"
+                    size={25}
+                  />
                 </a>
               </li>
             </ul>
+
+            <div className="pt-10 px-5">
+              <div className="flex text-white gap-5 ">
+                <AiFillMessage className="bg-roman-red p-2 rounded-full" size={30} />
+                <p>seomemail@gmail.com</p>
+              </div>
+              <div className="flex text-white gap-5 my-5">
+                <BsTelephoneFill className="bg-roman-red p-2 rounded-full" size={30} />
+                <p>some contact</p>
+              </div>
+            </div>
           </div>
         </nav>
       )}

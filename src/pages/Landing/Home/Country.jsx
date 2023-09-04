@@ -56,7 +56,7 @@ const Country = ({ src, alt }) => {
               {/* <h1 className="text-black font-roman uppercase md:text-4xl font-bold">
                 Romania
               </h1> */}
-              <p className="py-5 text-center md:text-left">
+              <p className="py-5">
                 Romania is a Country in the East of Europe. There are 27
                 countries in the East of Europe, and Romania is a part of them.
                 As a member state of the Europian Union and a signatory to all

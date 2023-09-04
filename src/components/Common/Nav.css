@@ -1,0 +1,13 @@
+/* Add this to your CSS or stylesheets */
+/* You can customize the transition duration and easing as needed */
+
+/* This CSS class will apply the slide transition */
+.transform.translate-x-full {
+  transform: translateX(100%);
+}
+
+/* This CSS class will apply no transition (menu fully visible) */
+.transition-transform {
+  transform: translateX(0%);
+  transition: transform 1s ease-in-out;
+}
