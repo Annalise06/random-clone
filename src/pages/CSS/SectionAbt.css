@@ -16,9 +16,9 @@
 }
 
 .bounce-animation {
-  animation: bounce 5s infinite;
+  animation: bounce 3s infinite;
 }
 
 .shake-animation {
-animation: shake 4s infinite;
+animation: shake 3s infinite;
 }

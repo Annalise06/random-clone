@@ -7,11 +7,11 @@ import { Link } from "react-router-dom";
 
 const Section = () => {
   return (
-    <div className="bg-gradient-to-b from-white via-white to-gray-100 md:px-10 px-3 py-10 md:py-20 relative">
+    <div className="bg-gradient-to-b from-white via-white to-gray-100 md:px-10 px-3 py-10 md:py-24 relative">
       <section className="" data-aos="fade-up" data-aos-duration="1500">
         <div className="">
           <div className="lg:flex lg:flex-row flex flex-col w-full gap-5">
-            <div
+            {/* <div
               className="relative bg-gray-300 bg-opacity-20 -left-0 py-5 lg:h-fit lg:w-full lgi:w-[430px] mid:w-[200px] wi-[150px]"
               data-aos="fade-up"
               data-aos-duration="2000"
@@ -30,15 +30,15 @@ const Section = () => {
                 <div className="pb-3">
                   <h1 className="uppercase text-gray-500">Online Form</h1>
                   <p className="text-black text-2xl md:w-[60%] font-semibold">
-                    Apply Online for New Visa
+                    Apply Online for Visa
                   </p>
                 </div>
                 <Link to="/public/visa"><button className="bg-white hover:bg-red-500 hover:text-white hover:bg-transition hover:ease-in-out hover:duration-700 ease-out duration-700 px-10 py-3">
-                  Learn More
+                  Apply
                 </button></Link>
                 
               </div>
-            </div>
+            </div> */}
             <div
               className="relative bg-gray-300 bg-opacity-20 bg-left py-5 lg:h-fit lg:w-full lgi:w-[430px] mid:w-[200px] wi-[150px]"
               data-aos="fade-up"
@@ -50,7 +50,7 @@ const Section = () => {
                   backgroundImage: `url(${sun})`,
                   backgroundSize: "cover",
                   opacity: 10,
-                  width: "60%",
+                  width: "70%",
                 }}
               ></div>
 
@@ -64,11 +64,13 @@ const Section = () => {
                 }}
               ></div> */}
 
-              <div className="relative h-56 pj-0 px-10 pt-10 z-10">
+              <div className="relative h-56 pj-0 px-10 md:pt-6 pt-5 z-10">
                 <div className="pb-3">
                   <h1 className="uppercase text-gray-500">Positive Result</h1>
-                  <p className="text-black text-2xl md:w-[60%] font-semibold">
-                    Best Immigration Process
+                  <p className="text-black md:text-2xl text-lg py-2 md:w-[70%] font-semibold">
+                    🌍Unlock Your Romanian Dream with the Best Immigration
+                    Process! <br className="hidden lg:flex"/>
+                    <span>#LiveInRomania</span>
                   </p>
                 </div>
                 <button className="bg-white hover:bg-red-500 hover:text-white hover:bg-transition hover:ease-in-out hover:duration-700 ease-out duration-700 px-10 py-3">
@@ -91,28 +93,31 @@ const Section = () => {
                 }}
               ></div>
 
-              <div className="relative h-56 pj-0 px-10 pt-10">
+              <div className="relative h-56 pj-0 px-10 md:pt-6 pt-7">
                 <div className="pb-3">
                   <h1 className="uppercase text-gray-500">Download From</h1>
-                  <p className="text-black text-2xl md:w-[60%] font-semibold">
-                    Best Immigration Process
+                  <p className="text-black md:text-2xl text-xl py-2 md:w-[67%] font-semibold">
+                    📥 Download our admission form and kickstart your future
+                    today! 🚀
                   </p>
                 </div>
                 <button className="bg-white hover:bg-red-500 hover:text-white hover:bg-transition hover:ease-in-out hover:duration-700 ease-out duration-700 px-10 py-3">
-                  Learn More
+                  Download
                 </button>
               </div>
             </div>
           </div>
-          <div className="flex justify-center lg:text-left text-center pt-10 text-gray-500 font- text-xl">
+          <div className="flex justify-center lg:text-left text-center pt-10 placeholder-opacity-100 text-gray-500 font- text-xl">
             <p>
-              Providing a One-Stop Solution for all Your{" "}
-              <span className="text-black border-b-2 border-red-600">Visa</span>{" "}
+              Providing a One-Stop Solution for Your{" "}
+              <span className="text-black border-b-2 border-red-600">
+                Immigration
+              </span>{" "}
               &{" "}
               <span className="text-black border-b-2 border-red-600 mr-1">
-                Immigration
+                Admission
               </span>
-              Needs
+              Needs to Romania
             </p>
           </div>
         </div>

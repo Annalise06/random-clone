@@ -61,9 +61,9 @@ const Abt = () => {
             <h1 className="lg:text-5xl text-2xl font-semibold lg:w-[33rem] text-black">
               Leading Visa & Immigration Agency
             </h1>
-            <p>
-              <BsPeople />
-              <span>The best in Visa & Immigration since 2013</span>
+            <p className="flex gap-5 py-5">
+              <BsPeople className="text-grey-red" size={50} />
+              <span className="text-2xl font-semibold text-roman-red w-[70%]">The best in Visa & Immigration since 2013</span>
             </p>
             <p className="py-5 lg:w-[30rem] text-sm">
               There are many variations of passages of available but the
@@ -93,7 +93,7 @@ const Abt = () => {
               <div className="bg-gradient-to-r from-black to-blue-600 border border-gray-300 py-1"></div>
             </div> */}
             <div className="mt-10 z-50">
-              <button className="text-white bg-[#202094] hover:underline hover:text-gray-100 hover:bg-[#202084] hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3">
+              <button className="text-white bg-roman-red hover:underline hover:text-gray-100 fover:bg-[#202084] hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3">
                 Discover More
               </button>
             </div>

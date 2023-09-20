@@ -8,12 +8,12 @@ import icon from "../../../images/coaching-one-hover-icon.png";
 import { BsArrowUpRight, BsArrowDownRight } from "react-icons/bs";
 
 const blockData = [
-  {
-    image: coach1,
-    title: "Citizenship Test",
-    content:
-      "Master your knowledge and skills to achieve citizenship. Our comprehensive test prep program ensures your success.",
-  },
+  // {
+  //   image: coach1,
+  //   title: "Citizenship Test",
+  //   content:
+  //     "Master your knowledge and skills to achieve citizenship. Our comprehensive test prep program ensures your success.",
+  // },
   {
     image: coach2,
     title: "B.SC Coaching",
@@ -23,7 +23,8 @@ const blockData = [
   {
     image: coach3,
     title: "Masters Coaching",
-    content: "IELTS is an English language test for study, migration or work",
+    content:
+      "Elevate your expertise with our Master's education programs. We offer advanced studies that will open doors to leadership roles and exciting career opportunities.",
   },
   {
     image: coach4,
@@ -48,7 +49,7 @@ const Coaching = () => {
       <div>
         <div className="lg:flex md:text-left  text-center lg:px-60 w-full">
           <div className="">
-            <p className="text-sm tracking-widest text-gray-500 uppercase">
+            <p className="text-sm tracking-widest px-5 text-gray-500 uppercase">
               Coaching we offer
             </p>
             <div className="flex justify-center lg:block">
@@ -69,13 +70,13 @@ const Coaching = () => {
         </div>
       </div>
       <div>
-        <div className="md:flex md:flex-row flex flex-col justify-center px-5 lg:px-20 mt-10 lg:gap-20 gap-10">
+        <div className="lg:flex lg:flex-row md:grid md:grid-cols-2 md:gap-10 flex flex-col justify-center md:px-10 px-5 lg:px-20 mt-10 lg:gap-20 gap-10">
           {blockData.map((data, index) => (
             <div
               data-aos="fade-up"
               data-aos-duration="2000"
               key={index}
-              className="bg-red-50g0 relative overflow-visible md:w-[35%] w-[100%] bg-no-repeat h-56 hovered"
+              className="bg-red-50g0 relative overflow-visible lg:w-[90%] md:w-[90%] w-[100%] bg-no-repeat h-56 hovered"
               style={{
                 backgroundImage: `url(${data.image})`,
               }}

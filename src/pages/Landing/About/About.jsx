@@ -7,6 +7,7 @@ import Abt from "./Section1";
 import Questions from "../Home/Questions";
 import Sectiontwo from "./Sectiontwo";
 import Sectionthree from "./Sectionthree";
+import Excellence from "../Home/Excellence";
 import Footer from "../../../components/Common/Footer";
 import bg from "../../../images/about-header-bg.jpg";
 
@@ -26,6 +27,7 @@ const About = () => {
           <Hero />
         </div>
         <Abt />
+        <Excellence />
         <Country />
         <Questions />
         <Sectiontwo />

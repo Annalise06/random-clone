@@ -7,9 +7,9 @@ import bg2 from "../../../images/excellence-one-shape-2.png";
 const Excellence = () => {
   return (
     <div className="bg-white pt-10">
-      <section className="lg:mx-44">
+      <section className="lg:mx-32">
         <div
-          className="bg-cover relative h-56 via- overflow-hidden"
+          className="bg-cover relative h-72 via- overflow-hidden"
           style={{
             backgroundImage: `url(${bg})`,
             backgroundColor: "#3636cc",
@@ -39,24 +39,24 @@ const Excellence = () => {
                 transition: all 0.5s;
               }
             `}</style>
-            <div className="lg:w-[50%] p-10">
-              <p className="lg:text-4xl text-2xl font-bold text-white">
-                Excellence <br />
-                in Visa & Immigration
+            <div className="lg:w-[50%] pl-10 pt-10 ">
+              <p className="lg:text-4xl pt-8 text-2xl font-bold text-white">
+                Excellence 
+                in Admmission & Immigration
               </p>
-              <button className="text-white mt-5 bg-black hover:underline hover:text-gray-100 hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3">
+              <button className="text-white mt-10 bg-black hover:underline hover:text-gray-100 hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3">
                 Apply for visa
               </button>
             </div>
             <div className="lg:w-[60%] lg:block hidden relative">
-              <div className="relative lg:ml-16 pt-0 right-0 w-full ">
+              <div className="relative lg:ml-28 pt-0 right-0 w-full ">
                 <img
-                  className="absolute -top-14 ml-[3g1rem] w-[37rem] shake-animation"
+                  className="absolute -top-8 ml-[3g1rem] w-[42rem] shake-animation"
                   src={bg2}
                   alt=""
                 />
                 <img
-                  className="absolute ml-[10rem] inset-0 w-72 h-[20.5rem] object-center bounce-animation"
+                  className="absolute ml-[10rem] inset-0 w-80 h-[25.5rem] object-center bounce-animation"
                   src={bg1}
                   alt=""
                 />

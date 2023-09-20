@@ -12,7 +12,7 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 const HomeNav = () => {
   return (
     <div className="">
-      <div class="hidden md:block bg-black pl-10">
+      <div class="hidden lg:block bg-black pl-10">
         <div class="flex justify-between">
           <div class="">
             <ul class="flex gap-10 text-sm font-semibold text-gray-500 mt-2">

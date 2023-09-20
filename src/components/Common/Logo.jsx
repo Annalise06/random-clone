@@ -8,7 +8,7 @@ const Logo = () => {
     <div>
       <div className="flex gap-2g">
         <div>
-          <img className="w-32 h-12 object-cover" src={flag1} alt="" />
+          <img className="md:w-[11rem] w-28 h-24 object-cover" src={flag1} alt="" />
         </div>
         {/* <FaGlobeAmericas className="text-roman-red" size={40} />
         <p className="text-2xl font-bold uppercase mt-1 text-white">Logo</p> */}

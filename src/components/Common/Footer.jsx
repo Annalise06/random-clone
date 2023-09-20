@@ -27,7 +27,7 @@ import "../../pages/CSS/SectionAbt.css";
 const Footer = () => {
   return (
     <div>
-      <div className="bg-black/70 lg:h-[73vh] pt-10">
+      <div className="bg-black/70 lg:h-full pt-10">
         <div className="py-10">
           <div
             className="md:flex justify-between md:mx-56 px-5 md:px- border-b border-gray-700 pb-5 bg-no-repeat bg-opacity-80 shake-animationJO bg-bluev-900"

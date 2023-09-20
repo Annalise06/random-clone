@@ -16,15 +16,17 @@ const Country = ({ src, alt }) => {
     setZoomed(!zoomed);
   };
   return (
-    <div className="bg-rfoman-red bg-white md:py-20 py-10 px-5 md:px-32 bg-no-repeat bg-contain bg-opacity-5d0 bg-transparrent text-whfite" style={{
-      backgroundImage: `url(${slider}`,
-      opacity: 1
-      
-    }}>
+    <div
+      className="bg-rfoman-red bg-gray-300 md:py-20 py-10 px-5 md:px-20 bg-no-repeat bg-contain bg-opacity-5d0 bg-transparrent text-whfite"
+      style={{
+        backgroundImage: `url(${slider}`,
+        opacity: 1,
+      }}
+    >
       <div className="flex justify-center">
         <div>
-          <h1 className="text-xs tracking-widest text-center uppercase">
-            Our Country
+          <h1 className="text-xs tracking-widest text-white font-semibold text-center uppercase">
+            Our Country, Your Choice
           </h1>
           <div className="flex justify-center">
             <div className="relative my-3 w-10 bg-red-500 h-[2px]">
@@ -51,7 +53,7 @@ const Country = ({ src, alt }) => {
               />
             </div>
           </div>
-          <div className="md:w-[60%] md:pt-0 pt-h10">
+          <div className="md:w-[60%] md:pt-0 pt-h10 text-black">
             <div className="">
               {/* <h1 className="text-black font-roman uppercase md:text-4xl font-bold">
                 Romania
@@ -70,18 +72,18 @@ const Country = ({ src, alt }) => {
                 </span> */}
               </p>
             </div>
-            <div className="md:flex md:flex-row flex flex-col gap-10 w-[50h%]">
-              <div className="w-full overflow-hidden">
+            <div className="md:flex md:flex-row justify-center flex flex-col gap-10 w-[50h%]">
+              {/* <div className="w-full overflow-hidden">
                 <img
                   className="h-[22rem] object-cover object-right w-[90h%] transition-transform transform-origin-left hover:scale-110 hover:ease-gin-out hover:duration-500 duration-500 hover:overflow-hidden"
                   src={flag2}
                   alt=""
                 />
-              </div>
+              </div> */}
 
-              <div className="w-full overflow-hidden">
+              <div className="w-full flex justify-center overflow-hidden">
                 <img
-                  className="h-[22rem] object-cover object-left w-[9h0%] transition-transform transform-origin-left hover:scale-110 hover:ease-gin-out hover:duration-500 duration-500 hover:overflow-hidden"
+                  className="h-[22rem] object-cover object-left w-full transition-transform transform-origin-left hover:scale-110 hover:ease-gin-out hover:duration-500 duration-500 hover:overflow-hidden"
                   src={flag3}
                   alt={alt}
                 />
@@ -111,7 +113,7 @@ const Country = ({ src, alt }) => {
                 work and education:
               </p>
               <div className="mt-5 grid grid-cols-1 md:grid md:grid-cols-2 gap-2">
-                <div className="flex gap-5 border border-gray-300 text-black cursor-pointer rounded-md px-5 py-4 hover:text-red-600 hover:transition-color hover:ease-in-out hover:duration-500 ease-out duration-500">
+                <div className="flex gap-5 border border-black text-black cursor-pointer rounded-md px-5 py-4 hover:text-red-600 hover:transition-color hover:ease-in-out hover:duration-500 ease-out duration-500">
                   <div>
                     <img className="w-14" src={flag4} alt="" />
                   </div>
@@ -119,7 +121,7 @@ const Country = ({ src, alt }) => {
                     <p>Affordable Living Costs</p>
                   </div>
                 </div>
-                <div className="flex gap-5 border border-gray-300 text-black cursor-pointer rounded-md px-5 py-4 hover:text-red-600 hover:transition-color hover:ease-in-out hover:duration-500 ease-out duration-500">
+                <div className="flex gap-5 border border-black text-black cursor-pointer rounded-md px-5 py-4 hover:text-red-600 hover:transition-color hover:ease-in-out hover:duration-500 ease-out duration-500">
                   <div>
                     <img className="w-14" src={flag4} alt="" />
                   </div>

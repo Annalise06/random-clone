@@ -5,8 +5,8 @@ import { MdCancel } from "react-icons/md";
 import { BsArrowRightSquareFill, BsTelephoneFill } from "react-icons/bs";
 import { AiFillMessage } from "react-icons/ai";
 // import "./Nav.css";
-
 import Logo from "./Logo";
+import { Link } from "react-router-dom";
 
 const NavBottom = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +18,7 @@ const NavBottom = () => {
 
   return (
     <div className="">
-      <nav className="border-b border-gray-600 border-opacity-40 bg-[#ff5050  md:py-5 py-7 md:px-10 pr-5">
+      <nav className="border-b border-gray-600 border-opacity-30 md:px-10 md:py-10 lg:py-0 py-0 lg:px-10 pr-10">
         <div
           className={`fixed top-0 left-0 transform ${
             isMenuOpen ? "translate-x-0 left-0" : "translate-x-full left-0"
@@ -26,9 +26,9 @@ const NavBottom = () => {
           // onClick={toggleMenu}
         ></div>
         <div className="flex justify-between">
-          <div className="flex gap-36">
+          <div className="flex lg:gap-36 md:gap-5">
             <Logo />
-            <div className="hidden md:block">
+            <div className="hidden md:block lg:pt-7">
               <ul className="flex gap-10 mt-2 text-white font-semibold">
                 <li>
                   <a href="/">Home</a>
@@ -51,14 +51,14 @@ const NavBottom = () => {
               </ul>
             </div>
           </div>
-          <div className="hidden md:flex">
+          <div className="hidden md:flex md:py-5 py-0">
             <button className="text-white font-semibold bg-transparent hover:bg-roman-red hover:border-noneh hover:transition hover:ease-in-out hover:duration-1000 ease-out duration-1000 uppercase text-sm border border-gray-500 px-10 py-3">
-              Book Appointment
+              <Link to="/public/contact">Book Appointment</Link>
             </button>
           </div>
           <div className="md:hidden">
             <button className="text-roman-red" onClick={toggleMenu}>
-              <GiHamburgerMenu className="mt-2" size={22} />
+              <GiHamburgerMenu className="lg:mt-2 mt-9" size={23} />
             </button>
           </div>
         </div>
@@ -144,11 +144,17 @@ const NavBottom = () => {
 
             <div className="pt-10 px-5">
               <div className="flex text-white gap-5 ">
-                <AiFillMessage className="bg-roman-red p-2 rounded-full" size={30} />
+                <AiFillMessage
+                  className="bg-roman-red p-2 rounded-full"
+                  size={30}
+                />
                 <p>seomemail@gmail.com</p>
               </div>
               <div className="flex text-white gap-5 my-5">
-                <BsTelephoneFill className="bg-roman-red p-2 rounded-full" size={30} />
+                <BsTelephoneFill
+                  className="bg-roman-red p-2 rounded-full"
+                  size={30}
+                />
                 <p>some contact</p>
               </div>
             </div>
