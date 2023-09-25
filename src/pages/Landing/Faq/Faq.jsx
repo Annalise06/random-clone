@@ -11,6 +11,7 @@ import Hero from "./Hero";
 import Footer from "../../../components/Common/Footer";
 import bg from "../../../images/about-header-bg.jpg";
 import Section from "./Section";
+import Questions from "./Questions";
 
 const Faq = () => {
   return (
@@ -28,6 +29,7 @@ const Faq = () => {
           <Hero />
         </div>
         <Section/>
+        <Questions/>
         {/* <Abt />
         <Excellence />
         <Country />
