@@ -11,9 +11,9 @@ const Collapse = ({ title, children }) => {
   };
 
   return (
-    <div className="bordter routnded">
-      <div className="flex justify-between">
-        <h2 className="text-sm font-semibold ml-2">{title}</h2>
+    <div className="bordter routnded ">
+      <div className="flex justify-between overflow-hidden">
+        <h2 className="text-sm font-semibold ml-2 py-3">{title}</h2>
         <button
           className="bg-gray-30g0 text-xl text-red-600 hover:bg-gravy-400 px-2 py-1 rounded"
           onClick={toggleCollapse}
@@ -23,7 +23,7 @@ const Collapse = ({ title, children }) => {
       </div>
 
       <div
-        className={`mt-2 ${
+        className={`mt-2  ${
           collapsed
             ? "max-h-0 overflow-hidden transition-max-height ease-in-out duration-1000"
             : "max-h-[1000px] transition-max-height ease-in duration-1000"
@@ -64,7 +64,7 @@ const Questions = () => {
         {/* </div> */}
 
         <div className="md:w-1/2 ">
-          <div className="md:px-20 pt-10 md:pt-32 text-center md:text-left">
+          <div className="md:px-20 pt-10  text-center md:text-left">
             <p className="text-sm tracking-widest text-gray-500 uppercase">
               Common Faqs
             </p>
@@ -80,31 +80,34 @@ const Questions = () => {
           </div>
 
           <div className="flex justify-center mt-10 md:mx-28 mx-5 ">
-            <div className="bg-blacvk">
+            <div className="bg-blacvk overflow-hidden">
               <div className="border border-gray-200 py-5 px-5">
-                <Collapse title="What are Immigration Services?">
+                <Collapse title="What services do you offer for those interested in Romania?">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Vivamus fermentum nunc ac massa tincidunt, ut commodo dui
-                    vulputate.
+                    We offer comprehensive services for visa application,
+                    interview preparation, and assistance in securing part-time
+                    employment in Romania.
                   </p>
                 </Collapse>
-                <Collapse title="What are the Benefits of Visa Consultancy?">
+                <Collapse title="What types of visas can you assist with for Romania?">
                   <p>
-                    Ut vehicula ipsum et hendrerit. Cras nec ullamcorper mi, ac
-                    euismod lorem.
+                    We can assist with various types of visas, including student
+                    visas, work visas, tourist visas, and more. Please specify
+                    your needs, and we'll provide tailored guidance.
                   </p>
                 </Collapse>
-                <Collapse title="What We should do If our Visa get Rejection?">
+                <Collapse title="Is Romania a safe and welcoming destination for international visitors and students?">
                   <p>
-                    Integer sit amet libero vel dolor feugiat faucibus eget ut
-                    nisi.
+                    Yes, Romania is known for its hospitality and safety. We'll
+                    provide you with information on safety measures and cultural
+                    insights to help you feel at home.
                   </p>
                 </Collapse>
-                <Collapse title="Which Documents are Required to Apply Visa Online?">
+                <Collapse title="Why should I consider studying in Romania?">
                   <p>
-                    Integer sit amet libero vel dolor feugiat faucibus eget ut
-                    nisi.
+                    Romania offers high-quality education, affordable tuition
+                    fees, and a rich cultural experience. It's a great choice
+                    for international students.
                   </p>
                 </Collapse>
               </div>

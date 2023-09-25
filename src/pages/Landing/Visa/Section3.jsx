@@ -70,7 +70,7 @@ const Section3 = () => {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <p className="border-l-4 py-5 md:px-10 px-5 md:text-lg my-5 text-black font-medium border-roman-red">
+            <p className="border-l-4 py-5 md:px-10 px-5 md:text-lg my-5 text-black shadow-lg shadow-gray-400 font-medium border-roman-red">
               We stand for quality, safety & credibility, so you could be trust
               us fully about city government and our working process.
             </p>

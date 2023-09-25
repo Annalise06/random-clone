@@ -15,13 +15,17 @@ const HomeNav = () => {
       <div class="hidden lg:block bg-black pl-10">
         <div class="flex justify-between">
           <div class="">
-            <ul class="flex gap-10 text-sm font-semibold text-gray-500 mt-2">
+            <ul class="flex gap-10 text-xs font-semibold text-gray-500 mt-2">
               <li className="flex gap-0.5">
                 <div class="icon icon-svg">
                   <FaMapMarkerAlt className="mt-1 text-roman-red" />
                 </div>
                 <div class="mt-0.5">
-                  <p>30 Broklyn Golden Street. USA</p>
+                  <p className="">
+                    {" "}
+                    Doyen Academy, Enugu Abakiliki Rd, Phase IIv 400104
+                    Enugu, Nigeria
+                  </p>
                 </div>
               </li>
               <li className="flex gap-2">
@@ -30,7 +34,10 @@ const HomeNav = () => {
                 </div>
                 <div class="mt-0.5">
                   <p>
-                    <a href="mailto:Info@company.com">Info@company.com</a>
+                    <a href="mailto:Info@company.com">
+                      {" "}
+                      romaniaconsultancy@gmail.com
+                    </a>
                   </p>
                 </div>
               </li>
@@ -44,25 +51,20 @@ const HomeNav = () => {
               </li>
             </ul>
           </div>
-          <div class="flex gap-20">
+          <div class="flex gap-20 pr-10">
             <ul class="flex gap-10 mt-3 text-sm ">
               <li>
-                <a class="" href="https://bracketweb.com/treckwp/login/">
-                  Login
-                </a>
-              </li>
-              <li>
-                <a class=" " href="https://bracketweb.com/treckwp/faqs/">
+                <a class=" " href="/">
                   Faq’s
                 </a>
               </li>
               <li>
-                <a class="  " href="https://bracketweb.com/treckwp/contact/">
+                <a class="  " href="/">
                   Contact
                 </a>
               </li>
             </ul>
-            <div class="flex bg-roman-red pr-10">
+            {/* <div class="flex bg-roman-red pr-10">
               <div>
                 <img
                   decoding="async"
@@ -89,7 +91,7 @@ const HomeNav = () => {
                   />
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

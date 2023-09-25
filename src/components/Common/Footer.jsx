@@ -27,7 +27,7 @@ import "../../pages/CSS/SectionAbt.css";
 const Footer = () => {
   return (
     <div>
-      <div className="bg-black/70 lg:h-full pt-10">
+      <div className="bg-black/70 lg:h-full pt-10 z-50">
         <div className="py-10">
           <div
             className="md:flex justify-between md:mx-56 px-5 md:px- border-b border-gray-700 pb-5 bg-no-repeat bg-opacity-80 shake-animationJO bg-bluev-900"
@@ -63,7 +63,7 @@ const Footer = () => {
                 <p>
                   Free{" "}
                   <span className="text-white font-semibold">
-                    +92 (8800) 9850
+                    -091 (3313) 7535, 09040490347
                   </span>{" "}
                 </p>
               </div>
@@ -75,9 +75,8 @@ const Footer = () => {
               <div>
                 <Logo />
               </div>
-              <p className="text-xs mt-5">
-                Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
-                Sunt qui esse pariatur duis deserunt.
+              <p className="text-xs font-semibold uppercvase text-yellow-500 text-center mt-5">
+                The best time to act was yesterday, <br /> the second-best time to act is now!
               </p>
               <div class="flex gap-4 text-white mt-5">
                 <a
@@ -138,12 +137,15 @@ const Footer = () => {
               <h2 className="text-sm font-semibold text-white pt-5">Contact</h2>
               <p className="text-xs flex pt-4 gap-2 text-roman-red">
                 <FaEnvelope className="mt-1" />{" "}
-                <span className="text-gray-500">needhelp@company.com</span>
+                <span className="text-gray-500">
+                  romaniaconsultancy@gmail.com
+                </span>
               </p>
               <p className="text-xs flex pt-4 gap-2 text-roman-red">
                 <FaMapMarkerAlt className="mt-1" />{" "}
                 <span className="text-gray-500">
-                  30 Commercial Road Fratton, Australia
+                  Doyen Academy, Enugu Abakiliki Rd, <br /> Phase IIv 400104 Enugu,
+                  Nigeria
                 </span>
               </p>
               <p className="text-xs flex pt-4 gap-2 text-roman-red">

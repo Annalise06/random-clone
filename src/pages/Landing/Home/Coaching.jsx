@@ -16,21 +16,21 @@ const blockData = [
   // },
   {
     image: coach2,
-    title: "B.SC Coaching",
+    title: "Visa Interview Preparation",
     content:
-      "Ignite your passion for science, technology, and innovation with our Bachelor of Science programs. Join us to explore the fascinating world of possibilities.",
+      "Elevate your visa interview readiness for Romania with expert coaching with Us. Boost confidence, ace the process, and embark on your Romanian journey!",
   },
-  {
-    image: coach3,
-    title: "Masters Coaching",
-    content:
-      "Elevate your expertise with our Master's education programs. We offer advanced studies that will open doors to leadership roles and exciting career opportunities.",
-  },
+  // {
+  //   image: coach3,
+  //   title: "Masters Coaching",
+  //   content:
+  //     "Elevate your expertise with our Master's education programs. We offer advanced studies that will open doors to leadership roles and exciting career opportunities.",
+  // },
   {
     image: coach4,
-    title: "Part-Time Jobs",
+    title: "Secure Employment Opportunities",
     content:
-      "International students can work part-time in Romania, if they possess a valid residence permit",
+      " Our expert guidance will helping you find fulfilling part-time jobs that complements your studies or stay in Romania, ensuring an enriching experience during your stay.",
   },
 ];
 
@@ -47,25 +47,32 @@ const Coaching = () => {
   return (
     <div className="bg-gray-100 py-20 relative">
       <div>
-        <div className="lg:flex md:text-left  text-center lg:px-60 w-full">
-          <div className="">
+        <div className="lg:block md:text-lefft  text-center lg:px-60 w-full">
+          <div className="text-center">
             <p className="text-sm tracking-widest px-5 text-gray-500 uppercase">
-              Coaching we offer
+              Additional Services we offer
             </p>
-            <div className="flex justify-center lg:block">
+            <div className="flex justify-center">
               <div className="relative my-5 w-10 bg-roman-red h-[2px]">
                 <div className="absolute -top-[3px] bg-white left-4t w-2 h-2 rounded-full border border-roman-red] shake-animation"></div>
               </div>
             </div>
 
-            <p className="md:text-4xl text-2xl px-3 flex font-semibold text-black">
+            <p className="md:text-4xl  justify-center text-2xl px-3 flex font-semibold text-black">
               Get the Best Trainings you Deserve
             </p>
           </div>
-          <div className="lg:w-1/2 pt-5 px-5 text-sm text-gray-500">
-            There are many variations of passages of available but the majority
-            have suffered alteration in some form, by injected hum randomised
-            words which don't slightly.
+          <div className=" pt-5 px-5 text-svm text-gray-500">
+            At our work and study agency, we go beyond traditional assistance by
+            offering effective services to enhance your journey in
+            Romania. Firstly, our visa interview preparations ensure you're
+            well-equipped to navigate the complexities of the visa application
+            process, setting you on the path to success. Secondly, we help you
+            secure fulfilling part-time employment opportunities that perfectly
+            complement your studies or stay in Romania. These services combine
+            to provide a holistic and enriching experience during your time in
+            this beautiful country. We're here to support your aspirations,
+            making your time in Romania both rewarding and memorable.
           </div>
         </div>
       </div>
@@ -76,7 +83,7 @@ const Coaching = () => {
               data-aos="fade-up"
               data-aos-duration="2000"
               key={index}
-              className="bg-red-50g0 relative overflow-visible lg:w-[90%] md:w-[90%] w-[100%] bg-no-repeat h-56 hovered"
+              className="bg-red-50g0 relative overflow-visible lg:w-[20rem] object-contain md:w-[90%] w-[100%] bg-no-repeat h-56 hovered"
               style={{
                 backgroundImage: `url(${data.image})`,
               }}
@@ -116,9 +123,7 @@ const Coaching = () => {
                     <img className="w-7" src={icon} alt="" />
                   </div>
                   <p className="text-black font-semibold py-3">{data.title}</p>
-                  <p className="text-2xs w-[90%]">
-                    {data.content}
-                  </p>
+                  <p className="text-2xs w-[90%]">{data.content}</p>
                   <div className="flex relative justify-endf mt-5">
                     <BsArrowDownRight className="absolute right-5 bottom-0" />
                   </div>

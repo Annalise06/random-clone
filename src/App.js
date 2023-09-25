@@ -11,6 +11,8 @@ import Test from "./pages/helpers/Test";
 import About from "./pages/Landing/About/About";
 import Contact from "./pages/Landing/Contact/Contact";
 import Visa from "./pages/Landing/Visa/Visa";
+import Admissions from "./pages/Landing/Admission/Admission";
+import Faq from "./pages/Landing/Faq/Faq";
 const App = () => {
   const { email } = useSelector((state) => state.auth.user_details);
   const props = { email };
@@ -20,9 +22,11 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="testing" element={<Test />} />
-        <Route path="/public/about" element={<About />} />
-        <Route path="/public/contact" element={<Contact />} />
-        <Route path="/public/visa" element={<Visa />} />
+        <Route path="/romania/about" element={<About />} />
+        <Route path="/romania/contact" element={<Contact />} />
+        <Route path="/romania/visa" element={<Visa />} />
+        <Route path="/romania/admissions" element={<Admissions />} />
+        <Route path="/romania/frequently-asked-questions" element={<Faq />} />
 
         {/* <Route path="public/about" element={<About />} />
         <Route path="public/markets" element={<Market />} />

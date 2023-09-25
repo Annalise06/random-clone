@@ -15,7 +15,7 @@ const Herox = () => {
       <div className="bg-black/60b relative bg-gradient-to-b from-black via-black/70 to-transparent h-screen md:h-[60vh] lg:h-screen"></div>
 
       <div className="absolute top-0 w-full">
-        {/* <NavTop /> */}
+        <NavTop />
         <NavBottom />
         <Hero />
         <Card />

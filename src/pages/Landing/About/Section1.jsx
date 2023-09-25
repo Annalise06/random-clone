@@ -5,8 +5,7 @@ import abt2 from "../../../images/about-four-img-2.jpg";
 import shp1 from "../../../images/about-two-shape-1.png";
 import sun from "../../../images/about-four-shape-2.png";
 import "../../CSS/SectionAbt.css";
-
-
+import { Link } from "react-router-dom";
 
 const Abt = () => {
   return (
@@ -34,17 +33,17 @@ const Abt = () => {
               alt=""
             />{" "}
             {/* <div className="border-[6px] lg:w-[28rem] w-[20rem] lg:left-8 -left-1 rounded-t-full rounded-br-full h-full top-0 border-red-600 absolute"></div> */}
-            <div data-aos="zoom-in"
-                data-aos-duration="1000" className="get absolute bottom-3 bg-gray-50">
+            <div
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+              className="get absolute bottom-3 bg-gray-50"
+            >
               <img
                 className="w-20 bg-transparent bg-clip-border absolute top-0 left-0"
                 src={shp1}
                 alt=""
               />
-              <div
-                
-                className="flex flex-col text-center px-10 py-4 bg-clip-contfent "
-              >
+              <div className="flex flex-col text-center px-10 py-4 bg-clip-contfent ">
                 <span className="text-3xl font-bold text-red-600">28</span>{" "}
                 <span>Years of Experience</span>
               </div>
@@ -58,17 +57,22 @@ const Abt = () => {
               {" "}
               <div className="absolute -top-[3.5px] bg-white lefgt-4 w-2 h-2 rounded-full border border-red-500 shake-animation"></div>
             </div>
-            <h1 className="lg:text-5xl text-2xl font-semibold lg:w-[33rem] text-black">
-              Leading Visa & Immigration Agency
+            <h1 className="lg:text-4xl text-2xl font-semibold lg:w-[33rem] text-black">
+              Your Trusted Partner in Admissions & Immigration!
             </h1>
-            <p className="flex gap-5 py-5">
-              <BsPeople className="text-grey-red" size={50} />
-              <span className="text-2xl font-semibold text-roman-red w-[70%]">The best in Visa & Immigration since 2013</span>
+            <p className="flex gap-5 pt-5">
+              <BsPeople className="text-roman-red" size={50} />
+              <span className="text-2xl font-semibold text-roman-red w-[70%]">
+                The best in Admissions & Immigration since 2013
+              </span>
             </p>
             <p className="py-5 lg:w-[30rem] text-sm">
-              There are many variations of passages of available but the
-              majority have suffered alteration in some form, by injected hum
-              randomised words which don't simply free text now slightly.
+              Embark on your Romanian adventure with a trusted partner. We
+              specialize in Romanian admissions and immigration, offering expert
+              guidance tailored to your needs. From securing admissions to
+              navigating visa processes, we ensure a seamless journey. Let us be
+              your gateway to experiencing the beauty and opportunities of
+              Romania. Your exciting journey starts here.
             </p>
             <div className="md:w-[30rem]">
               <div className="md:flex gap-5">
@@ -94,7 +98,7 @@ const Abt = () => {
             </div> */}
             <div className="mt-10 z-50">
               <button className="text-white bg-roman-red hover:underline hover:text-gray-100 fover:bg-[#202084] hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3">
-                Discover More
+                <Link to="/public/contact"> Contact Us</Link>
               </button>
             </div>
           </div>

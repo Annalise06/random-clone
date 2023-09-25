@@ -34,16 +34,16 @@ const NavBottom = () => {
                   <a href="/">Home</a>
                 </li>
                 <li>
-                  <a href="/public/about">About</a>
+                  <a href="/romania/about">About</a>
                 </li>
                 <li>
-                  <a href="/">Admissions</a>
+                  <a href="/romania/admissions">Admissions</a>
                 </li>
                 <li>
-                  <a href="/public/visa">Visa</a>
+                  <a href="/romania/visa">Visa</a>
                 </li>{" "}
                 <li>
-                  <a href="/public/contact">Contact</a>
+                  <a href="/romania/contact">Contact</a>
                 </li>{" "}
                 <li>
                   <a href="/">FAQ</a>
@@ -53,7 +53,7 @@ const NavBottom = () => {
           </div>
           <div className="hidden md:flex md:py-5 py-0">
             <button className="text-white font-semibold bg-transparent hover:bg-roman-red hover:border-noneh hover:transition hover:ease-in-out hover:duration-1000 ease-out duration-1000 uppercase text-sm border border-gray-500 px-10 py-3">
-              <Link to="/public/contact">Book Appointment</Link>
+              <Link to="/romania/contact">Book Appointment</Link>
             </button>
           </div>
           <div className="md:hidden">
@@ -93,7 +93,7 @@ const NavBottom = () => {
                 </a>
               </li>
               <li>
-                <a href="/public/about" className="flex justify-between">
+                <a href="/romania/about" className="flex justify-between">
                   <p>About</p>
                   <BsArrowRightSquareFill
                     className="text-roman-red"
@@ -102,7 +102,7 @@ const NavBottom = () => {
                 </a>
               </li>
               <li>
-                <a href="/public/admissions" className="flex justify-between">
+                <a href="/romania/admissions" className="flex justify-between">
                   <p>Admissions</p>
                   <BsArrowRightSquareFill
                     className="text-roman-red"
@@ -111,7 +111,7 @@ const NavBottom = () => {
                 </a>
               </li>
               <li>
-                <a href="/public/visa" className="flex justify-between">
+                <a href="/romania/visa" className="flex justify-between">
                   <p>Visa</p>
                   <BsArrowRightSquareFill
                     className="text-roman-red"
@@ -120,7 +120,7 @@ const NavBottom = () => {
                 </a>
               </li>
               <li>
-                <a href="/public/contact" className="flex justify-between">
+                <a href="/romania/contact" className="flex justify-between">
                   <p>Contact</p>
                   <BsArrowRightSquareFill
                     className="text-roman-red"
@@ -130,7 +130,7 @@ const NavBottom = () => {
               </li>
               <li>
                 <a
-                  href="/public/frequently-asked-questions"
+                  href="/romania/frequently-asked-questions"
                   className="flex justify-between"
                 >
                   <p>FAQ</p>

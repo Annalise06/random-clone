@@ -1,13 +1,17 @@
 import React, { useState } from "react";
-import { BsCheck2 } from "react-icons/bs";
-import { AiFillCaretDown } from "react-icons/ai";
+import { FaPeopleCarry } from "react-icons/fa";
+import { FaGlobeEurope } from "react-icons/fa";
+import { GiShinyPurse } from "react-icons/gi";
+import { BsFillPatchCheckFill } from "react-icons/bs";
 import flag1 from "../../../images/Romania.jpg";
 import flag2 from "../../../images/somebg.webp";
 import flag3 from "../../../images/Revolution.jpg";
 import flag4 from "../../../images/affordable.png";
 import flag5 from "../../../images/theater.png";
+import person2 from "../../../images/testimonial-one-img-2.png";
 import slider from "../../../images/site-footer-map-1.png";
 import "../../CSS/Country.css";
+import { Link } from "react-router-dom";
 
 const Country = ({ src, alt }) => {
   const [zoomed, setZoomed] = useState(false);
@@ -17,7 +21,7 @@ const Country = ({ src, alt }) => {
   };
   return (
     <div
-      className="bg-rfoman-red bg-gray-300 md:py-20 py-10 px-5 md:px-20 bg-no-repeat bg-contain bg-opacity-5d0 bg-transparrent text-whfite"
+      className="bg-rfoman-red bg-white md:py-20 py-10 px-5 md:px-20 bg-no-repeat bg-contain bg-opacity-5d0 bg-transparrent text-whfite"
       style={{
         backgroundImage: `url(${slider}`,
         opacity: 1,
@@ -25,7 +29,7 @@ const Country = ({ src, alt }) => {
     >
       <div className="flex justify-center">
         <div>
-          <h1 className="text-xs tracking-widest text-white font-semibold text-center uppercase">
+          <h1 className="text-xs tracking-widest text-gray-500 font-semibold text-center uppercase">
             Our Country, Your Choice
           </h1>
           <div className="flex justify-center">
@@ -41,17 +45,57 @@ const Country = ({ src, alt }) => {
       </div>
       <div className="flex justify-center mt-10">
         <div className="md:flex md:flex-row-reverse flex flex-col justify-center gap-10">
-          <div className="md:w-[40%] relative">
+          <div className="md:w-[40%] relative bg-roman-red">
             <div className=" flex justify-center mt-20">
-              <img src={flag1} className="w-72 zh-10 rounded-full" alt="" />
+              <img
+                src={flag1}
+                className="w-72 zh-10 border-4 border-dotted border-yellow-300 rounded-full"
+                alt=""
+              />
             </div>
-            <div className="absolute top-72 left-24">
+            <div className="lg:py-5 flex flex-col gap-5 mx-10 font-semibold uppercase">
+              <div className="text-lgi flex justify-between text-black bg-white px-10 py-3 border border-black rounded-md hover:bg-transparent hover:text-white hover:border-white hover:transition hover:ease-in-out ease-out duration-500 hover:duration-500">
+                <p className="mt-1">Affordable Education</p>
+                <GiShinyPurse className="md:mt-0 mt-2.5" size={30} />
+              </div>
+              <div className="text-lgi flex justify-between text-black bg-white px-10 py-3 border border-black rounded-md hover:bg-transparent hover:text-white hover:border-white hover:transition hover:ease-in-out ease-out duration-500 hover:duration-500">
+                <p className="mt-1">Work Opportunities</p>
+                <FaPeopleCarry className="md:mt-0 mt-2.5" size={30} />
+              </div>
+              <div className="text-lgi flex justify-between text-black bg-white px-10 py-3 border border-black rounded-md hover:bg-transparent hover:text-white hover:border-white hover:transition hover:ease-in-out ease-out duration-500 hover:duration-500">
+                <p className="mt-1">Cultural Diversities</p>
+                <FaGlobeEurope className="md:mt-0 mt-2.5" size={30} />
+              </div>
+            </div>
+            <div className="flex relative justify-center py-5">
+              <img
+                className="w-[20rem] relative border-4 bg-white border-yellow-300 border-dotted pl-5 pt-32"
+                src={person2}
+                alt=""
+              />
+              <div>
+                <BsFillPatchCheckFill
+                  className="absolute md:left-44 left-28 top-16 text-green-500 bgd-white rounded-full"
+                  size={55}
+                />
+                <p className="absolute md:right-28 right-20 top-10 w-[20%] text-2xl font-semibold text-roman-red">
+                  100% Guarantee Approval
+                </p>
+              </div>
+              <div className="absolute bottom-10 z-10">
+                <button className="text-white bg-roman-red bg-opacity-70 border border-roman-red hover:underline hover:text-gray-100 fover:bg-[#202084] hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3">
+                  <a href="/public/contact">Apply Now</a>
+                </button>
+              </div>
+            </div>
+
+            {/* <div className="absolute top-72 left-24">
               <img
                 src={slider}
                 className="bg-redv-500 w-[25rem] bounce-animation"
                 alt=""
               />
-            </div>
+            </div> */}
           </div>
           <div className="md:w-[60%] md:pt-0 pt-h10 text-black">
             <div className="">
