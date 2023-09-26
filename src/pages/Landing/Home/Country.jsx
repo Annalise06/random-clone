@@ -21,7 +21,7 @@ const Country = ({ src, alt }) => {
   };
   return (
     <div
-      className="bg-rfoman-red bg-white md:py-20 py-10 px-5 md:px-20 bg-no-repeat bg-contain bg-opacity-5d0 bg-transparrent text-whfite"
+      className="bg-rfoman-red font-roman bg-white md:py-20 py-10 px-5 md:px-20 bg-no-repeat bg-contain bg-opacity-5d0 bg-transparrent text-whfite"
       style={{
         backgroundImage: `url(${slider}`,
         opacity: 1,
@@ -43,17 +43,18 @@ const Country = ({ src, alt }) => {
           </h1>
         </div>
       </div>
-      <div className="flex justify-center mt-10">
-        <div className="md:flex md:flex-row-reverse flex flex-col justify-center gap-10">
+      <div className="flexjustify-center mt-10">
+        <div className="md:flex md:flex-row-reverse flex flex-col-reverse justify-center gap-10">
           <div className="md:w-[40%] relative bg-roman-red">
-            <div className=" flex justify-center mt-20">
+            <p className="text-white text-lg font-serif font-semibold text-center py-3">Enquire our Services and Enjoy your dreams abroad</p>
+            <div className=" flex justify-center ">
               <img
                 src={flag1}
                 className="w-72 zh-10 border-4 border-dotted border-yellow-300 rounded-full"
                 alt=""
               />
             </div>
-            <div className="lg:py-5 flex flex-col gap-5 mx-10 font-semibold uppercase">
+            <div className="lg:py-5 py-5 flex flex-col gap-5 mx-10 font-semibold uppercase">
               <div className="text-lgi flex justify-between text-black bg-white px-10 py-3 border border-black rounded-md hover:bg-transparent hover:text-white hover:border-white hover:transition hover:ease-in-out ease-out duration-500 hover:duration-500">
                 <p className="mt-1">Affordable Education</p>
                 <GiShinyPurse className="md:mt-0 mt-2.5" size={30} />
@@ -69,7 +70,7 @@ const Country = ({ src, alt }) => {
             </div>
             <div className="flex relative justify-center py-5">
               <img
-                className="w-[20rem] relative border-4 bg-white border-yellow-300 border-dotted pl-5 pt-32"
+                className="w-[20rem] relative md:border-4 border-y md:bg-white  md:border-yellow-300 md:border-dotted pl-5 pt-32"
                 src={person2}
                 alt=""
               />
@@ -78,7 +79,7 @@ const Country = ({ src, alt }) => {
                   className="absolute md:left-44 left-28 top-16 text-green-500 bgd-white rounded-full"
                   size={55}
                 />
-                <p className="absolute md:right-28 right-20 top-10 w-[20%] text-2xl font-semibold text-roman-red">
+                <p className="absolute md:right-28 right-20 top-10 w-[20%] text-2xl font-semibold md:text-roman-red text-white">
                   100% Guarantee Approval
                 </p>
               </div>
@@ -97,12 +98,12 @@ const Country = ({ src, alt }) => {
               />
             </div> */}
           </div>
-          <div className="md:w-[60%] md:pt-0 pt-h10 text-black">
+          <div className="md:w-[60%] font-serif md:pt-0 pt-h10 text-black">
             <div className="">
               {/* <h1 className="text-black font-roman uppercase md:text-4xl font-bold">
                 Romania
               </h1> */}
-              <p className="py-5">
+              <p className="py-5 ">
                 Romania is a Country in the East of Europe. There are 27
                 countries in the East of Europe, and Romania is a part of them.
                 As a member state of the Europian Union and a signatory to all
@@ -133,22 +134,22 @@ const Country = ({ src, alt }) => {
                 />
               </div>
             </div>
-            <p className="my-5">
+            <p className="mt-5">
               This means that when you study in Romania, you can practise in any
               other European country without having to write an exam. You also
               have easy movement between member countries, whereas life in
               Romania is very affordable compared to other European countries.
             </p>
-            <p className=" text-yellow-400 font-bold">
+            <p className=" text-yellow-400 font-bold my-10">
               Make Romania your gateway to quality education and get a good
               eduaction for the fraction of the cost. Make Romania your gateway
               to Europe
             </p>
             <div>
-              <h1 className="text-black font-roman uppercase md:text-4xl font-bold my-5">
+              <h1 className="text-black font-roman uppercase md:text-4xl font-bold mb-5">
                 Why Choose Romania
               </h1>
-              <p>
+              <p className="">
                 Choosing Romania for work and educational opportunities offers a
                 multitude of advantages that make it an attractive destination
                 for individuals seeking an accessible and affordable visa. Here
@@ -156,7 +157,7 @@ const Country = ({ src, alt }) => {
                 your organization specializing in facilitating visa services for
                 work and education:
               </p>
-              <div className="mt-5 grid grid-cols-1 md:grid md:grid-cols-2 gap-2">
+              <div className="mt-6 grid grid-cols-1 md:grid md:grid-cols-2 gap-5">
                 <div className="flex gap-5 border border-black text-black cursor-pointer rounded-md px-5 py-4 hover:text-red-600 hover:transition-color hover:ease-in-out hover:duration-500 ease-out duration-500">
                   <div>
                     <img className="w-14" src={flag4} alt="" />
@@ -171,6 +172,23 @@ const Country = ({ src, alt }) => {
                   </div>
                   <div className="flex justify-center font-semibold pt-4">
                     <p>Cultural Diversity</p>
+                  </div>
+                </div>
+
+                <div className="flex gap-5 border border-black text-black cursor-pointer rounded-md px-5 py-4 hover:text-red-600 hover:transition-color hover:ease-in-out hover:duration-500 ease-out duration-500">
+                  <div>
+                    <img className="w-14" src={flag4} alt="" />
+                  </div>
+                  <div className="flex justify-center font-semibold pt-4">
+                    <p>Endless Opportunities</p>
+                  </div>
+                </div>
+                <div className="flex gap-5 border border-black text-black cursor-pointer rounded-md px-5 py-4 hover:text-red-600 hover:transition-color hover:ease-in-out hover:duration-500 ease-out duration-500">
+                  <div>
+                    <img className="w-14" src={flag4} alt="" />
+                  </div>
+                  <div className="flex justify-center font-semibold pt-4">
+                    <p>World-class Education</p>
                   </div>
                 </div>
               </div>

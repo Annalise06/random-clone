@@ -2,12 +2,18 @@ import React from "react";
 import person from "../../../images/student_visa.jpg";
 import obtain from "../../../images/obtain.png";
 import { BsCheck } from "react-icons/bs";
+import { FaPeopleCarry } from "react-icons/fa";
+import { FaGlobeEurope } from "react-icons/fa";
+import { GiShinyPurse } from "react-icons/gi";
+import { BsFillPatchCheckFill } from "react-icons/bs";
+import flag1 from "../../../images/Romania.jpg";
+import person2 from "../../../images/testimonial-one-img-2.png";
 import { AiOutlineCaretDown } from "react-icons/ai";
 
 const Section3 = () => {
   return (
-    <div className="bg-white md:px-32 py-20 px-5  font-roman">
-      <div className="md:flex">
+    <div className="bg-white md:px-24 py-20 px-5  font-roman">
+      <div className="md:flex gap-10">
         <div className="md:w-[70%]">
           <div className="md:flex gap-10">
             <div className="w-[50%f]">
@@ -130,7 +136,7 @@ const Section3 = () => {
                 </div>
                 <div className="text-xs w-[20%]x text-center text-black">
                   <p>
-                    Obtain a letter of acceptance from the Ministry of Education
+                   Certify and legalize all necessary documents
                   </p>
                 </div>
               </div>
@@ -153,7 +159,7 @@ const Section3 = () => {
                 </div>
                 <div className="text-xs w-[20%]x text-center text-black">
                   <p>
-                    Obtain a letter of acceptance from the Ministry of Education
+                    Book a date for your interview
                   </p>
                 </div>
               </div>
@@ -176,7 +182,7 @@ const Section3 = () => {
                 </div>
                 <div className="text-xs w-[20%]x text-center text-black">
                   <p>
-                    Obtain a letter of acceptance from the Ministry of Education
+                    Pay the Visa fees
                   </p>
                 </div>
               </div>
@@ -199,7 +205,7 @@ const Section3 = () => {
                 </div>
                 <div className="text-xs w-[20%]x text-center text-black">
                   <p>
-                    Obtain a letter of acceptance from the Ministry of Education
+                    On your appointed date, visit the Embassy for your interview
                   </p>
                 </div>
               </div>
@@ -213,7 +219,61 @@ const Section3 = () => {
         </div>
 
         <div>
-          <p>some butotns</p>
+          <div className="relative bg-roman-red">
+            <p className="text-white text-lg font-serif font-semibold text-center md:px-5 px-0 py-3">
+              Enquire our Services and Enjoy your dreams abroad
+            </p>
+            <div className=" flex justify-center ">
+              <img
+                src={flag1}
+                className="w-72 zh-10 border-4 border-dotted border-yellow-300 rounded-full"
+                alt=""
+              />
+            </div>
+            <div className="lg:py-5 py-5 flex flex-col gap-5 mx-10 font-semibold uppercase">
+              <div className="text-lgi flex justify-between text-black bg-white px-10 py-3 border border-black rounded-md hover:bg-transparent hover:text-white hover:border-white hover:transition hover:ease-in-out ease-out duration-500 hover:duration-500">
+                <p className="mt-1">Affordable Education</p>
+                <GiShinyPurse className="md:mt-0 mt-2.5" size={30} />
+              </div>
+              <div className="text-lgi flex justify-between text-black bg-white px-10 py-3 border border-black rounded-md hover:bg-transparent hover:text-white hover:border-white hover:transition hover:ease-in-out ease-out duration-500 hover:duration-500">
+                <p className="mt-1">Work Opportunities</p>
+                <FaPeopleCarry className="md:mt-0 mt-2.5" size={30} />
+              </div>
+              <div className="text-lgi flex justify-between text-black bg-white px-10 py-3 border border-black rounded-md hover:bg-transparent hover:text-white hover:border-white hover:transition hover:ease-in-out ease-out duration-500 hover:duration-500">
+                <p className="mt-1">Cultural Diversities</p>
+                <FaGlobeEurope className="md:mt-0 mt-2.5" size={30} />
+              </div>
+            </div>
+            <div className="flex relative justify-center py-5">
+              <img
+                className="w-[20rem] relative md:border-4 border-y md:bg-white  md:border-yellow-300 md:border-dotted pl-5 pt-32"
+                src={person2}
+                alt=""
+              />
+              <div>
+                <BsFillPatchCheckFill
+                  className="absolute md:left-40 left-28 top-16 text-green-500 bgd-white rounded-full"
+                  size={55}
+                />
+                <p className="absolute md:right-28 right-20 top-10 w-[20%] text-2xl font-semibold md:text-roman-red text-white">
+                  100% Guarantee Approval
+                </p>
+              </div>
+              <div className="absolute bottom-10 z-10">
+                <button className="text-white bg-roman-red bg-opacity-70 border border-roman-red hover:underline hover:text-gray-100 fover:bg-[#202084] hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3">
+                  <a href="/public/contact">Apply Now</a>
+                </button>
+              </div>
+            </div>
+
+            {/* <div className="absolute top-72 left-24">
+              <img
+                src={slider}
+                className="bg-redv-500 w-[25rem] bounce-animation"
+                alt=""
+              />
+            </div> */}
+          </div>
         </div>
       </div>
     </div>

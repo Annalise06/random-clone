@@ -46,7 +46,7 @@ const NavBottom = () => {
                   <a href="/romania/contact">Contact</a>
                 </li>{" "}
                 <li>
-                  <a href="/">FAQ</a>
+                  <a href="/romania/frequently-asked-questions">FAQ</a>
                 </li>
               </ul>
             </div>

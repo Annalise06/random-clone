@@ -8,7 +8,7 @@ import brand5 from "../../../images/brand-2-6-112x42.png";
 
 const Sectiontwo = () => {
   return (
-    <div className="bg-white relative py-20 md:px-32">
+    <div className="bg-white relative md:py-20 pb-10 md:px-32">
       <div className="relative w-full text-center flex justify-center">
         <div className="relative w-full md:border-b-2 md:border-gray-300"></div>
         <div className="absolute  -top-3 bg-white px-5 ">

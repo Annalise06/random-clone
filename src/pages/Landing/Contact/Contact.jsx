@@ -16,7 +16,7 @@ const Contact = () => {
           backgroundImage: `url(${bg})`,
         }}
       >
-        <div className="bg-black/40 ">
+        <div className="bg-gradient-to-b from-black via-black/70 to-transparent">
           <NavBottom />
           <Hero />
         </div>

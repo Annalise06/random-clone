@@ -65,7 +65,7 @@ const Section2 = () => {
               free text by injected humou or randomised words even believable.
             </p>
 
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-5 text-gray-500">
               <div className="flex gap-10 border py-5 px-5 bg-white">
                 <div>
                   <img
@@ -75,8 +75,8 @@ const Section2 = () => {
                   />
                 </div>
                 <div className="check relative border-l hover:transition hover:ease-in-out hover:duration-500 ease-out duration-500 hover:border-l hover:border-blue-600 py-3 px-8 border-gray-200">
-                  <p>Benefit 01</p>
-                  <p>Our Process is Very Fast</p>
+                  <p>Benefit 02</p>
+                  <p>Individual Attention</p>
                 </div>
 
                 <style jsx>{`
@@ -110,8 +110,8 @@ const Section2 = () => {
                   />
                 </div>
                 <div className="check relative border-l hover:transition hover:ease-in-out hover:duration-500 ease-out duration-500 hover:border-l hover:border-blue-600 py-3 px-8 border-gray-200">
-                  <p>Benefit 01</p>
-                  <p>Our Process is Very Fast</p>
+                  <p>Benefit 03</p>
+                  <p>Flexible Timing</p>
                 </div>
 
                 <style jsx>{`

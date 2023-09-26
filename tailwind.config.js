@@ -5,7 +5,7 @@ module.exports = {
       colors: {
         "regal-blue": "#202094",
         "roman-red": "#e20935",
-        "roman-grey": '#727272'
+        "roman-grey": "#e3dbd8",
       },
       fontFamily: {
         roman: ["Plus Jakarta Sans", "sans - serif"],

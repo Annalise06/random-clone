@@ -39,7 +39,7 @@ const Collapse = ({ title, children }) => {
 
 const Questions = () => {
   return (
-    <div className="bg-white px-20">
+    <div className="bg-white md:px-20">
       <div className="md:flex w-full font-roman lg:h-screen pb-20 md:pb-0 ">
         {/* <div
           className="lg:w-[45%] lg:h-[90vh] h-[50%] w-full bg-contain bg-no-repeat"

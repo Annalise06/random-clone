@@ -8,6 +8,7 @@ import bg5 from "../../../images/visa-offers-shape-5.jpg";
 import bg6 from "../../../images/visa-offers-shape-6.jpg";
 import flag from "../../../images/romania.png";
 import person1 from "../../../images/student_visa.jpg";
+import person2 from "../../../images/coaching-details-benefit-img.jpg";
 import { BiCheck } from "react-icons/bi";
 import { Link } from "react-router-dom";
 
@@ -42,7 +43,7 @@ const First = () => {
         <div>
           <div className="md:grid md:grid-cols-2 grid grid-cols-1 gap-10">
             <div
-              className="relative md:py-10 md:px-10 px-5 py-10 pb-16 bg-center"
+              className="relative md:py-10 h-[26rem] md:px-10 px-5 py-10 pb-16 bg-center overflow-hidden"
               style={{
                 backgroundImage: `url(${bg1})`,
               }}
@@ -51,7 +52,7 @@ const First = () => {
                 <div className="flex justify-between">
                   <div className="btz mt-3u h-fit">
                     <p className="text-xs uppercase">
-                      Fulfill your shitty dreams
+                      fulfill your dreams
                     </p>
                   </div>
                   <style jsx>{`
@@ -78,12 +79,12 @@ const First = () => {
                   </div>
                 </div>
 
-                <div>
+                <div className="">
                   <p className="text-black font-semibold text-2xl py-3">
                     Medicine and Surgery
                   </p>
                   <div>
-                    <div className="md:flex flex-row text-lg md:text-base md:gap-3 mt-">
+                    <div className="md:flex md:flex-col flex-row text-lg md:text-base md:gap-3 mt-">
                       <div className="flex gap-1 md:mb-0 mb-3">
                         <BiCheck
                           size={25}
@@ -99,15 +100,19 @@ const First = () => {
                         <p>Affordable Fees</p>
                       </div>
                     </div>
-                    <div className="flex justify-end pt-5 lg:mr-12">
+                    <div
+                      data-aos="zoom-in"
+                      data-aos-duration="2000"
+                      className="absolute md:top-24 overflow-hidden top-40 -right-5 md:right-4 flex justify-end pt-5 lg:mr-12"
+                    >
                       <img
                         src={person1}
-                        className="rounded-full w-[45%]"
+                        className="rounded-full md:w-[65%] w-[50%]"
                         alt=""
                       />
                     </div>
                     <div>
-                      <div className="absolute bottom-10">
+                      <div className="absolute md:bottom-10 bottom-6">
                         <p className="text-xs uppercase text-white py-1">
                           Application Fee
                         </p>
@@ -122,7 +127,7 @@ const First = () => {
             </div>
 
             <div
-              className="relative md:px-10 md:py-10 px-5 py-10 pb-16 bg-center"
+              className="relative md:py-10 h-[26rem] md:px-10 px-5 py-10 pb-16 bg-center overflow-hidden"
               style={{
                 backgroundImage: `url(${bg2})`,
               }}
@@ -131,7 +136,7 @@ const First = () => {
                 <div className="flex justify-between">
                   <div className="btz mt-3u h-fit">
                     <p className="text-xs uppercase">
-                      Fulfill your shitty dreams
+                      fulfill your dreams
                     </p>
                   </div>
                   <style jsx>{`
@@ -158,12 +163,12 @@ const First = () => {
                   </div>
                 </div>
 
-                <div>
+                <div className="">
                   <p className="text-black font-semibold text-2xl py-3">
-                    Business Administration
+                    Business Management
                   </p>
-                  <div>
-                    <div className="md:flex flex-row text-lg md:text-base md:gap-3 mt-">
+                  <div className="">
+                    <div className="md:flex md:flex-col flex-row text-lg md:text-base md:gap-3 mt-">
                       <div className="flex gap-1 md:mb-0 mb-3">
                         <BiCheck
                           size={25}
@@ -179,15 +184,19 @@ const First = () => {
                         <p>Affordable Fees</p>
                       </div>
                     </div>
-                    <div className="flex justify-end pt-5 lg:mr-12">
+                    <div
+                      data-aos="zoom-in"
+                      data-aos-duration="2000"
+                      className="absolute md:top-24 overflow-hidden top-40 -right-5 md:right-4 flex justify-end pt-5 lg:mr-12"
+                    >
                       <img
-                        src={person1}
-                        className="rounded-full w-[45%]"
+                        src={person2}
+                        className="rounded-full md:w-[65%] w-[50%]"
                         alt=""
                       />
                     </div>
                     <div>
-                      <div className="absolute bottom-10">
+                      <div className="absolute md:bottom-10 bottom-6">
                         <p className="text-xs uppercase text-white py-1">
                           Application Fee
                         </p>
@@ -202,7 +211,7 @@ const First = () => {
             </div>
 
             <div
-              className="relative p-10 pb-16"
+              className="relative md:py-10 h-[26rem] md:px-10 px-5 py-10 pb-16 bg-center overflow-hidden"
               style={{
                 backgroundImage: `url(${bg3})`,
               }}
@@ -211,7 +220,7 @@ const First = () => {
                 <div className="flex justify-between">
                   <div className="btz mt-3u h-fit">
                     <p className="text-xs uppercase">
-                      Fulfill your shitty dreams
+                      fulfill your dreams
                     </p>
                   </div>
                   <style jsx>{`
@@ -243,7 +252,7 @@ const First = () => {
                     Physics
                   </p>
                   <div>
-                    <div className="flex flex-row text-lg md:text-base md:gap-3 mt-">
+                    <div className="md:flex md:flex-col text-lg md:text-base md:gap-3 mt-">
                       <div className="flex gap-1 md:mb-0 mb-3">
                         <BiCheck
                           size={25}
@@ -259,15 +268,19 @@ const First = () => {
                         <p>Affordable Fees</p>
                       </div>
                     </div>
-                    <div className="flex justify-end pt-5 lg:mr-12">
+                    <div
+                      data-aos="zoom-in"
+                      data-aos-duration="2000"
+                      className="absolute md:top-24 overflow-hidden top-40 -right-5 md:right-4 flex justify-end pt-5 lg:mr-12"
+                    >
                       <img
                         src={person1}
-                        className="rounded-full w-[45%]"
+                        className="rounded-full md:w-[65%] w-[50%]"
                         alt=""
                       />
                     </div>
                     <div>
-                      <div className="absolute bottom-10">
+                      <div className="absolute md:bottom-10 bottom-6">
                         <p className="text-xs uppercase text-white py-1">
                           Application Fee
                         </p>
@@ -282,7 +295,7 @@ const First = () => {
             </div>
 
             <div
-              className="relative md:px-10 md:py-10 px-5 py-10 pb-16 bg-center"
+              className="relative md:py-10 h-[26rem] md:px-10 px-5 py-10 pb-16 bg-center overflow-hidden"
               style={{
                 backgroundImage: `url(${bg4})`,
               }}
@@ -291,7 +304,7 @@ const First = () => {
                 <div className="flex justify-between">
                   <div className="btz mt-3u h-fit">
                     <p className="text-xs uppercase">
-                      Fulfill your shitty dreams
+                      fulfill your dreams
                     </p>
                   </div>
                   <style jsx>{`
@@ -323,7 +336,7 @@ const First = () => {
                     Computer Science
                   </p>
                   <div>
-                    <div className="md:flex flex-row text-lg md:text-base md:gap-3 mt-">
+                    <div className="md:flex md:flex-col text-lg md:text-base md:gap-3 mt-">
                       <div className="flex gap-1 md:mb-0 mb-3">
                         <BiCheck
                           size={25}
@@ -339,15 +352,19 @@ const First = () => {
                         <p>Affordable Fees</p>
                       </div>
                     </div>
-                    <div className="flex justify-end pt-5 lg:mr-12">
+                    <div
+                      data-aos="zoom-in"
+                      data-aos-duration="2000"
+                      className="absolute md:top-24 overflow-hidden top-40 -right-6 md:right-4 flex justify-end pt-5 lg:mr-12"
+                    >
                       <img
                         src={person1}
-                        className="rounded-full w-[45%]"
+                        className="rounded-full md:w-[65%] w-[50%]"
                         alt=""
                       />
                     </div>
                     <div>
-                      <div className="absolute bottom-10">
+                      <div className="absolute md:bottom-10 bottom-6">
                         <p className="text-xs uppercase text-white py-1">
                           Application Fee
                         </p>
@@ -406,7 +423,7 @@ const First = () => {
                   <div className="absolute -top-[3px] bg-white left-4t w-2 h-2 rounded-full border border-roman-red] shake-animation"></div>
                 </div>
 
-                <p className="md:text-4xl text-2xl flex font-semibold text-black">
+                <p className="md:text-4xl text-2xl uppercase flex font-semibold text-black">
                   Masters COURSES
                 </p>
               </div>
@@ -423,7 +440,7 @@ const First = () => {
             </div>
             <div className="md:grid md:grid-cols-2 grid grid-cols-1 gap-10">
               <div
-                className="relative md:px-10 md:py-10 px-5 py-10 pb-16 bg-center"
+                className="relative md:py-10 h-[26rem] md:px-10 px-5 py-10 pb-16 bg-center overflow-hidden"
                 style={{
                   backgroundImage: `url(${bg6})`,
                 }}
@@ -432,7 +449,7 @@ const First = () => {
                   <div className="flex justify-between">
                     <div className="btz mt-3u h-fit">
                       <p className="text-xs uppercase">
-                        Fulfill your shitty dreams
+                        fulfill your dreams
                       </p>
                     </div>
                     <style jsx>{`
@@ -464,7 +481,7 @@ const First = () => {
                       Computational Linguistics
                     </p>
                     <div>
-                      <div className="md:flex flex-row text-lg md:text-base md:gap-3 mt-">
+                      <div className="md:flex md:flex-col text-lg md:text-base md:gap-3 mt-">
                         <div className="flex gap-1 md:mb-0 mb-3">
                           <BiCheck
                             size={25}
@@ -480,15 +497,19 @@ const First = () => {
                           <p>Affordable Fees</p>
                         </div>
                       </div>
-                      <div className="flex justify-end pt-5 lg:mr-12">
+                      <div
+                        data-aos="zoom-in"
+                        data-aos-duration="2000"
+                        className="absolute md:top-24 overflow-hidden top-40 -right-5 md:right-4 flex justify-end pt-5 lg:mr-12"
+                      >
                         <img
                           src={person1}
-                          className="rounded-full w-[45%]"
+                          className="rounded-full md:w-[65%] w-[50%]"
                           alt=""
                         />
                       </div>
                       <div>
-                        <div className="absolute bottom-10">
+                        <div className="absolute md:bottom-10 bottom-6">
                           <p className="text-xs uppercase text-white py-1">
                             Application Fee
                           </p>
@@ -503,7 +524,7 @@ const First = () => {
               </div>
 
               <div
-                className="relative md:px-10 md:py-10 px-5 py-10 pb-16 bg-center"
+                className="relative md:py-10 h-[26rem] md:px-10 px-5 py-10 pb-16 bg-center overflow-hidden"
                 style={{
                   backgroundImage: `url(${bg5})`,
                 }}
@@ -512,7 +533,7 @@ const First = () => {
                   <div className="flex justify-between">
                     <div className="btz mt-3u h-fit">
                       <p className="text-xs uppercase">
-                        Fulfill your shitty dreams
+                        fulfill your dreams
                       </p>
                     </div>
                     <style jsx>{`
@@ -544,7 +565,7 @@ const First = () => {
                       Advanced studies in chemistry
                     </p>
                     <div>
-                      <div className="md:flex flex-row text-lg md:text-base md:gap-3 mt-">
+                      <div className="md:flex md:flex-col text-lg md:text-base md:gap-3 mt-">
                         <div className="flex gap-1 md:mb-0 mb-3">
                           <BiCheck
                             size={25}
@@ -560,15 +581,19 @@ const First = () => {
                           <p>Affordable Fees</p>
                         </div>
                       </div>
-                      <div className="flex justify-end pt-5 lg:mr-12">
+                      <div
+                        data-aos="zoom-in"
+                        data-aos-duration="2000"
+                        className="absolute md:top-24 overflow-hidden top-40 -right-5 md:right-4 flex justify-end pt-5 lg:mr-12"
+                      >
                         <img
                           src={person1}
-                          className="rounded-full w-[45%]"
+                          className="rounded-full md:w-[65%] w-[50%]"
                           alt=""
                         />
                       </div>
                       <div>
-                        <div className="absolute bottom-10">
+                        <div className="absolute md:bottom-10 bottom-6">
                           <p className="text-xs uppercase text-white py-1">
                             Application Fee
                           </p>
@@ -583,7 +608,7 @@ const First = () => {
               </div>
 
               <div
-                className="relative md:px-10 md:py-10 px-5 py-10 bg-center pb-16"
+                className="relative md:py-10 h-[26rem] md:px-10 px-5 py-10 pb-16 bg-center overflow-hidden"
                 style={{
                   backgroundImage: `url(${bg2})`,
                 }}
@@ -592,7 +617,7 @@ const First = () => {
                   <div className="flex justify-between">
                     <div className="btz mt-3u h-fit">
                       <p className="text-xs uppercase">
-                        Fulfill your shitty dreams
+                        fulfill your dreams
                       </p>
                     </div>
                     <style jsx>{`
@@ -624,7 +649,7 @@ const First = () => {
                       Software Engineering
                     </p>
                     <div>
-                      <div className="md:flex flex-row text-lg md:text-base md:gap-3 mt-">
+                      <div className="md:flex md:flex-col text-lg md:text-base md:gap-3 mt-">
                         <div className="flex gap-1 md:mb-0 mb-3">
                           <BiCheck
                             size={25}
@@ -640,15 +665,19 @@ const First = () => {
                           <p>Affordable Fees</p>
                         </div>
                       </div>
-                      <div className="flex justify-end pt-5 lg:mr-12">
+                      <div
+                        data-aos="zoom-in"
+                        data-aos-duration="2000"
+                        className="absolute md:top-24 overflow-hidden top-40 -right-5 md:right-4 flex justify-end pt-5 lg:mr-12"
+                      >
                         <img
                           src={person1}
-                          className="rounded-full w-[45%]"
+                          className="rounded-full md:w-[65%] w-[50%]"
                           alt=""
                         />
                       </div>
                       <div>
-                        <div className="absolute bottom-10">
+                        <div className="absolute md:bottom-10 bottom-6">
                           <p className="text-xs uppercase text-white py-1">
                             Application Fee
                           </p>
@@ -663,7 +692,7 @@ const First = () => {
               </div>
 
               <div
-                className="relative md:px-10 md:py-10 px-5 py-10 bg-center pb-16"
+                className="relative md:py-10 h-[26rem] md:px-10 px-5 py-10 pb-16 bg-center overflow-hidden"
                 style={{
                   backgroundImage: `url(${bg1})`,
                 }}
@@ -672,7 +701,7 @@ const First = () => {
                   <div className="flex justify-between">
                     <div className="btz mt-3u h-fit">
                       <p className="text-xs uppercase">
-                        Fulfill your shitty dreams
+                        fulfill your dreams
                       </p>
                     </div>
                     <style jsx>{`
@@ -704,7 +733,7 @@ const First = () => {
                       Computer Science
                     </p>
                     <div>
-                      <div className="md:flex flex-row text-lg md:text-base md:gap-3 mt-">
+                      <div className="md:flex md:flex-col text-lg md:text-base md:gap-3 mt-">
                         <div className="flex gap-1 md:mb-0 mb-3">
                           <BiCheck
                             size={25}
@@ -720,15 +749,19 @@ const First = () => {
                           <p>Affordable Fees</p>
                         </div>
                       </div>
-                      <div className="flex justify-end pt-5 lg:mr-12">
+                      <div
+                        data-aos="zoom-in"
+                        data-aos-duration="2000"
+                        className="absolute md:top-24 overflow-hidden top-40 -right-5 md:right-4 flex justify-end pt-5 lg:mr-12"
+                      >
                         <img
                           src={person1}
-                          className="rounded-full w-[45%]"
+                          className="rounded-full md:w-[65%] w-[50%]"
                           alt=""
                         />
                       </div>
                       <div>
-                        <div className="absolute bottom-10">
+                        <div className="absolute md:bottom-10 bottom-6">
                           <p className="text-xs uppercase text-white py-1">
                             Application Fee
                           </p>
