@@ -46,7 +46,7 @@ const HomeNav = () => {
                   <MdAccessTimeFilled className="mt-1 text-roman-red" />
                 </div>
                 <div class="mt-0.5">
-                  <p>Mon - Fri 8.00 am - 6.00 pm</p>
+                  <p>Mon - Fri 8.00 am - 4.00 pm</p>
                 </div>
               </li>
             </ul>
@@ -54,13 +54,13 @@ const HomeNav = () => {
           <div class="flex gap-20 pr-10">
             <ul class="flex gap-10 mt-1.5 text-sm ">
               <li>
-                <a class=" " href="/romania/frequently-asked-questions">
+                <a class="" href="/romania/frequently-asked-questions">
                   Faq’s
                 </a>
               </li>
               <li>/</li>
               <li>
-                <a class="  " href="/romania/contact">
+                <a class="" href="/romania/contact">
                   Contact
                 </a>
               </li>

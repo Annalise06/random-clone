@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import bg from "../../../images/faq-one-bg.jpg";
 import { BsPlus } from "react-icons/bs";
 import { BiShieldQuarter } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const Collapse = ({ title, children }) => {
   const [collapsed, setCollapsed] = useState(true);
@@ -52,11 +53,13 @@ const Questions = () => {
               <BiShieldQuarter size={60} className="text-white mt-4" />
             </div>
             <p className="text-white md:text-5xl mt-5 text-2xl font-semibold">
-              Most Trusted Visa & Immigration Agency!
+              Most Trusted Admissions & Immigration Agency!
             </p>
             <div className="mt-5 md:mt-10">
               <button className="text-white bg-black hover:underline hover:text-gray-400 hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3">
-                Discover More
+                <Link to="/romania/frequently-asked-questions">
+                  Discover More
+                </Link>
               </button>
             </div>
           </div>

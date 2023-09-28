@@ -41,7 +41,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="mt-8">
-            <Link to="/public/about">
+            <Link to="/romania/about">
               <button className="text-white bg-roman-red hover:underline hover:text-gray-100 hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-12 py-4">
                 Discover More
               </button>

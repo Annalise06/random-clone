@@ -11,7 +11,7 @@ const Card = () => {
       <section className="container mx-auto md:px-10 px-4 lg:px-0 md:pt-24 lg:pt-14">
         <div className="text-white flex justify-center">
           <div
-            className="relative bg-red-500 hover:border hover:border-gray-300 bg-opacity-70 z-20 -left-0 top-0 px-10 py-5 w-full hover:transition hover:ease-in-out ease-out hover:duration-500 duration-500 hover:scale-95"
+            className="relative bg-[#a1a1a1] bg-opacity-40 bg-transparent hover:border hover:border-gray-300 bg-dopacity-70 z-20 -left-0 top-0 px-10 py-5 w-full hover:transition hover:ease-in-out ease-out hover:duration-500 duration-500 hover:scale-95"
             data-aos="fade-up"
             data-aos-duration="1000"
           >

@@ -11,7 +11,7 @@ const Contact = () => {
     <div>
       <HomeNav />
       <div
-        className="bg-congtain w-full md:h-[29rem] h-[75vh] bg-top bg-cover bg-no-repeat"
+        className="bg-conztain w-full md:h-[85vh] h-[75vh] bg-top bg-cover bg-no-repeat"
         style={{
           backgroundImage: `url(${bg})`,
         }}

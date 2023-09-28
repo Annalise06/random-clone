@@ -85,7 +85,7 @@ const Abt = () => {
               <div className="bg-gradient-to-r from-black via-roman-red border to-gray-400 border-gray-300 py-1"></div>
             </div>
             <div className="mt-10">
-              <Link to="/public/about"> 
+              <Link to="/romania/about"> 
                 <button className="text-white bg-roman-red hover:underline hover:text-gray-100 hover:bg-roman-red hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3">
                   Discover More
                 </button>

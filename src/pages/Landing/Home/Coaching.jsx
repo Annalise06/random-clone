@@ -6,6 +6,7 @@ import coach4 from "../../../images/coaching-1-4.jpg";
 import icon from "../../../images/coaching-one-hover-icon.png";
 
 import { BsArrowUpRight, BsArrowDownRight } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const blockData = [
   // {
@@ -64,11 +65,11 @@ const Coaching = () => {
           </div>
           <div className=" pt-5 px-5 text-svm text-gray-500">
             At our work and study agency, we go beyond traditional assistance by
-            offering effective services to enhance your journey in
-            Romania. Firstly, our visa interview preparations ensure you're
-            well-equipped to navigate the complexities of the visa application
-            process, setting you on the path to success. Secondly, we help you
-            secure fulfilling part-time employment opportunities that perfectly
+            offering effective services to enhance your journey in Romania.
+            Firstly, our visa interview preparations ensure you're well-equipped
+            to navigate the complexities of the visa application process,
+            setting you on the path to success. Secondly, we help you secure
+            fulfilling part-time employment opportunities that perfectly
             complement your studies or stay in Romania. These services combine
             to provide a holistic and enriching experience during your time in
             this beautiful country. We're here to support your aspirations,
@@ -105,10 +106,10 @@ const Coaching = () => {
                     alt="alt"
                     title="main-header-two-social-shape"
                   />
-                  <div className="absolute w-full flex justify-between mt-2 px-5">
-                    <p className="font-semibold">{data.title}</p>
-                    <BsArrowUpRight className="mt-1 font-bold" />
-                  </div>
+                    <div className="absolute w-full flex justify-between mt-2 px-5">
+                      <p className="font-semibold">{data.title}</p>
+                      <BsArrowUpRight className="mt-1 font-bold" />
+                    </div>
                 </div>
               </div>
               <div
@@ -119,6 +120,8 @@ const Coaching = () => {
                 }`}
               >
                 <div className="mt-5f w-full">
+                                    <Link to="/romania/visa">
+
                   <div className="">
                     <img className="w-7" src={icon} alt="" />
                   </div>
@@ -127,6 +130,7 @@ const Coaching = () => {
                   <div className="flex relative justify-endf mt-5">
                     <BsArrowDownRight className="absolute right-5 bottom-0" />
                   </div>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -19,7 +19,7 @@ const Faq = () => {
       {" "}
       <HomeNav />
       <div
-        className="bg-congtain w-full md:h-[29rem] h-[75vh] bg-top bg-cover bg-no-repeat"
+        className="bg-congtain w-full md:h-[85vh] h-[75vh] bg-top bg-cover bg-no-repeat"
         style={{
           backgroundImage: `url(${bg})`,
         }}
@@ -28,8 +28,8 @@ const Faq = () => {
           <NavBottom />
           <Hero />
         </div>
-        <Section/>
-        <Questions/>
+        <Section />
+        <Questions />
         {/* <Abt />
         <Excellence />
         <Country />

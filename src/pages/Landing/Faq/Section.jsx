@@ -16,7 +16,7 @@ const Section = () => {
             <div className="md:flex flex flex-col justify-center gap-5 md:gap-10">
               <div className="flex justify-cengter">
                 <button className="text-white bg-roman-red hover:underline hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3 font-semibold">
-                  <Link to="/public/contact"> Contact Now!</Link>
+                  <Link to="/romania/contact">Contact Now!</Link>
                 </button>
               </div>
               <div className="text-center">

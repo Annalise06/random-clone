@@ -9,6 +9,7 @@ import { BsFillPatchCheckFill } from "react-icons/bs";
 import flag1 from "../../../images/Romania.jpg";
 import person2 from "../../../images/testimonial-one-img-2.png";
 import { AiOutlineCaretDown } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Section3 = () => {
   return (
@@ -212,6 +213,7 @@ const Section3 = () => {
             </div>
             <div className="mt-8">
               <button className="text-white bg-roman-red hover:underline hover:text-gray-100 hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-12 py-3">
+                <Link to="/romania/contact"></Link>
                 Book Appointment
               </button>
             </div>
