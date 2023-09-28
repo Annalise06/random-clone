@@ -98,7 +98,7 @@ const Abt = () => {
             </div> */}
             <div className="mt-10 z-50">
               <button className="text-white bg-roman-red hover:underline hover:text-gray-100 fover:bg-[#202084] hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3">
-                <Link to="/public/contact"> Contact Us</Link>
+                <Link to="/romania/contact"> Contact Us</Link>
               </button>
             </div>
           </div>

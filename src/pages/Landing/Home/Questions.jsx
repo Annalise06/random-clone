@@ -57,9 +57,9 @@ const Questions = () => {
             </p>
             <div className="mt-5 md:mt-10">
               <button className="text-white bg-black hover:underline hover:text-gray-400 hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3">
-                <Link to="/romania/frequently-asked-questions">
+                <a href="/romania/frequently-asked-questions">
                   Discover More
-                </Link>
+                </a>
               </button>
             </div>
           </div>

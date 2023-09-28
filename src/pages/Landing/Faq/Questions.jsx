@@ -77,7 +77,7 @@ const Questions = () => {
                     OR
                   </p>
                   <button className="text-roman-red bg-white hover:underline hover:border-2 hover:border-dotted border-roman-red fover:bg-[#202084] hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3">
-                    <Link to="/public/contact"> Contact Us</Link>
+                    <Link to="/romania/contact"> Contact Us</Link>
                   </button>
                 </div>
               </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { MdOutlineArrowRight } from "react-icons/md"
+import { MdOutlineArrowRight } from "react-icons/md";
 import bg from "../../../images/excellence-one-bg.png";
 import bg1 from "../../../images/excellence-one-shape-1.png";
 import bg2 from "../../../images/excellence-one-shape-2.png";
@@ -30,7 +30,7 @@ const Excellence = () => {
                 position: absolute;
                 padding: 0;
                 margin-top: 32px;
-                
+
                 border-right: 0;
                 border-top: 28px solid transparent;
                 border-left: 13px solid black;
@@ -42,12 +42,10 @@ const Excellence = () => {
             `}</style>
             <div className="lg:w-[50%] pl-10 pt-10 ">
               <p className="lg:text-4xl pt-8 text-2xl font-bold text-white">
-                Excellence 
-                in Admmission & Immigration
+                Excellence in Admmission & Immigration
               </p>
               <button className="text-white mt-10 bg-black hover:underline hover:text-gray-100 hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3">
-                <Link to="/romania/visa"></Link>
-                Apply for visa
+                <a href="/romania/visa">Apply for visa</a>
               </button>
             </div>
             <div className="lg:w-[60%] lg:block hidden relative">
