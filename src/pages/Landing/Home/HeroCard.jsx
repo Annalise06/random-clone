@@ -35,7 +35,7 @@ const Card = () => {
               <div className="text-sm text-left flex justify-between pt-3">
                 <p>✅ World-class education</p>
                 <p>✅ Expert faculty</p>
-                <p>✅ State-of-the-art facilities</p>
+                <p>✅ EU-recognized degrees for a bright future! </p>
                 <p>✅ Diverse and inclusive community</p>
                 <p>✅ Endless opportunities</p>
               </div>
