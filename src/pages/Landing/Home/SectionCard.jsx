@@ -5,8 +5,8 @@ import C3 from "../../../images/feature-1-3.png";
 import sun from "../../../images/feature-one-shape-1.png";
 import { Link } from "react-router-dom";
 
-const PDF_FILE_URL = "https://random-clone-d5ns.vercel.app/Article.pdf"
-const JPG_FILE_URL = "https://random-clone-d5ns.vercel.app/Brochure.jpg"
+const PDF_FILE_URL = "https://random-silk-ten.vercel.app/Article.pdf"
+const JPG_FILE_URL = "https://random-silk-ten.vercel.app/Brochure.jpg"
 
 const Section = () => {
   const downloadFileAtUrl=(url)=>{
