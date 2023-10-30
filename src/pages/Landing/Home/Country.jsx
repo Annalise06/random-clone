@@ -46,7 +46,7 @@ const Country = ({ src, alt }) => {
       <div className="flexjustify-center mt-10">
         <div className="md:flex md:flex-row-reverse flex flex-col-reverse justify-center gap-10">
           <div className="md:w-[40%] relative bg-roman-red">
-            <p className="text-white text-lg font-serif font-semibold text-center py-3">Enquire our Services and Enjoy your dreams abroad</p>
+            <p className="text-white text-lg font-serif font-semibold text-center py-3">Explore our Services and Enjoy your dreams abroad</p>
             <div className=" flex justify-center ">
               <img
                 src={flag1}
@@ -147,7 +147,7 @@ const Country = ({ src, alt }) => {
             </p>
             <div>
               <h1 className="text-black font-roman uppercase md:text-4xl font-bold mb-5">
-                Why Choose Romania
+                Why Choose Romania?
               </h1>
               <p className="">
                 Choosing Romania for work and educational opportunities offers a

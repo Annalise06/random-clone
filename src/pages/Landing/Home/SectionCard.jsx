@@ -5,7 +5,19 @@ import C3 from "../../../images/feature-1-3.png";
 import sun from "../../../images/feature-one-shape-1.png";
 import { Link } from "react-router-dom";
 
+const PDF_FILE_URL = "https://random-clone-d5ns.vercel.app/Article.pdf"
+const JPG_FILE_URL = "https://random-clone-d5ns.vercel.app/Brochure.jpg"
+
 const Section = () => {
+  const downloadFileAtUrl=(url)=>{
+    const fileName = url.split('/').pop()
+    const aTag = document.createElement('a')
+    aTag.href = url
+    aTag.setAttribute('download', fileName)
+    document.body.appendChild(aTag)
+    aTag.click();
+    aTag.remove();
+  }
   return (
     <div className="bg-gradient-to-b from-white via-white to-gray-100 md:px-10 px-3 py-10 md:py-24 relative">
       <section className="" data-aos="fade-up" data-aos-duration="1500">
@@ -73,8 +85,8 @@ const Section = () => {
                     <span>#LiveInRomania</span>
                   </p>
                 </div>
-                <button className="bg-white hover:bg-red-500 hover:text-white hover:bg-transition hover:ease-in-out hover:duration-700 ease-out duration-700 px-10 py-3">
-                  <Link to="/romania/about"> Learn More</Link>
+                <button onClick={()=>{downloadFileAtUrl(JPG_FILE_URL)}} className="bg-white hover:bg-red-500 hover:text-white hover:bg-transition hover:ease-in-out hover:duration-700 ease-out duration-700 px-10 py-3">
+                   Get Brochure
                 </button>
               </div>
             </div>
@@ -101,8 +113,8 @@ const Section = () => {
                     today! 🚀
                   </p>
                 </div>
-                <button className="bg-white hover:bg-red-500 hover:text-white hover:bg-transition hover:ease-in-out hover:duration-700 ease-out duration-700 px-10 py-3">
-                  <Link to="/romania/contact">Download</Link>
+                <button onClick={()=>{downloadFileAtUrl(PDF_FILE_URL)}} className="bg-white hover:bg-red-500 hover:text-white hover:bg-transition hover:ease-in-out hover:duration-700 ease-out duration-700 px-10 py-3">
+                  Download
                 </button>
               </div>
             </div>

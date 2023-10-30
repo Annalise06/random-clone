@@ -1,11 +1,9 @@
 import React from "react";
-import bg from "../../../images/testimonial-one-bg.png"
+import bg from "../../../images/testimonial-one-bg.png";
 
 const Section = () => {
   return (
-    <div
-      className="relative bg-gray-100 md:py-20 py-10 bg-no-repeat bg-bottom h-fit"
-    >
+    <div className="relative bg-gray-100 md:py-20 py-10 bg-no-repeat bg-bottom h-fit">
       <div className="px-5">
         <div>
           <h1 className="text-xs tracking-widest text-center uppercase">
@@ -70,7 +68,7 @@ const Section = () => {
             </div>
             <div className="flex justify-center pt-5">
               <button className="bg-[#e20935] px-10 py-2 text-white">
-                Submit
+                <a href="https://mail.google.com/">Submit</a>
               </button>
             </div>
           </form>

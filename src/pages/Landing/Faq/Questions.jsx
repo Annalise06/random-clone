@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { AiFillPhone } from "react-icons/ai";
+import { IoLogoWhatsapp } from "react-icons/io";
 import bg from "../../../images/faq-one-bg.jpg";
+import WM from "../../../images/S&W-1.png";
 import { BsPlus } from "react-icons/bs";
 import { BiShieldQuarter } from "react-icons/bi";
 import { Link } from "react-router-dom";
@@ -39,15 +41,20 @@ const Collapse = ({ title, children }) => {
 
 const Questions = () => {
   return (
-    <div className="bg-white md:px-20">
-      <div className="md:flex w-full font-roman lg:h-screen pb-20 md:pb-0 ">
+    <div className="bg-white md:px-20 ">
+      <div
+        className="md:flex w-full font-roman lg:h-screen pb-20 md:pb-0 bg-top bg-contain bg-no-repeat bg-opacity-10"
+        // style={{
+        //   backgroundImage: `url(${WM})`,
+        //   backgroundSize: "inherent",
+        //   opacity: 0.4
+        // }}
+      >
         {/* <div
-          className="lg:w-[45%] lg:h-[90vh] h-[50%] w-full bg-contain bg-no-repeat"
-          style={{
-            backgroundImage: `url(${bg})`,
-          }}
+          className=""
+          
         > */}
-        <div className="relative">
+        <div className="relative" >
           <div>
             <div className="my-10 text-white ">
               <div className="bg-roman-red py-5 px-10 md:fflex md:justify-between">
@@ -76,9 +83,9 @@ const Questions = () => {
                   <p className="font-bold uppercase text-lg text-center pb-3">
                     OR
                   </p>
-                  <button className="text-roman-red bg-white hover:underline hover:border-2 hover:border-dotted border-roman-red fover:bg-[#202084] hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3">
-                    <Link to="/romania/contact"> Contact Us</Link>
-                  </button>
+                  <a href="https://wa.link/93tia3" className="flex gap-3 text-roman-red bg-white hover:underline hover:border hover:border-dotted border-roman-red fover:bg-[#202084] hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3">
+                    <p> Contact Us</p> <IoLogoWhatsapp className="text-green-500" size={25}/>
+                  </a>
                 </div>
               </div>
             </div>

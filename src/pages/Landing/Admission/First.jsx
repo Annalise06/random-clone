@@ -114,10 +114,10 @@ const First = () => {
                     <div>
                       <div className="absolute md:bottom-10 bottom-6">
                         <p className="text-xs uppercase text-white py-1">
-                          Application Fee
+                          Tuition Fee
                         </p>
                         <p className="bg-black font-semibold text-white px-8 py-1 w-fit">
-                          € 6000
+                          <span className="text-xs">FROM: </span> 6000
                         </p>
                       </div>
                     </div>
@@ -198,10 +198,10 @@ const First = () => {
                     <div>
                       <div className="absolute md:bottom-10 bottom-6">
                         <p className="text-xs uppercase text-white py-1">
-                          Application Fee
+                          Tuition Fee
                         </p>
                         <p className="bg-black font-semibold text-white px-8 py-1 w-fit">
-                          € 3400
+                          <span className="text-xs ">FROM: </span> 3400
                         </p>
                       </div>
                     </div>
@@ -282,10 +282,10 @@ const First = () => {
                     <div>
                       <div className="absolute md:bottom-10 bottom-6">
                         <p className="text-xs uppercase text-white py-1">
-                          Application Fee
+                          Tuition Fee
                         </p>
                         <p className="bg-black font-semibold text-white px-8 py-1 w-fit">
-                          € 2520
+                          <span className="text-xs ">FROM: </span> 2520
                         </p>
                       </div>
                     </div>
@@ -366,10 +366,10 @@ const First = () => {
                     <div>
                       <div className="absolute md:bottom-10 bottom-6">
                         <p className="text-xs uppercase text-white py-1">
-                          Application Fee
+                          Tuition Fee
                         </p>
                         <p className="bg-black font-semibold text-white px-8 py-1 w-fit">
-                          € 3400
+                          <span className="text-xs ">FROM: </span> 3400
                         </p>
                       </div>
                     </div>
@@ -511,10 +511,10 @@ const First = () => {
                       <div>
                         <div className="absolute md:bottom-10 bottom-6">
                           <p className="text-xs uppercase text-white py-1">
-                            Application Fee
+                            Tuition Fee
                           </p>
                           <p className="bg-black font-semibold text-white px-8 py-1 w-fit">
-                            € 2600
+                            <span className="text-xs ">FROM: </span> 2600
                           </p>
                         </div>
                       </div>
@@ -595,10 +595,10 @@ const First = () => {
                       <div>
                         <div className="absolute md:bottom-10 bottom-6">
                           <p className="text-xs uppercase text-white py-1">
-                            Application Fee
+                            Tuition Fee
                           </p>
                           <p className="bg-black font-semibold text-white px-8 py-1 w-fit">
-                            € 2600
+                            <span className="text-xs ">FROM: </span> 2600
                           </p>
                         </div>
                       </div>
@@ -679,10 +679,10 @@ const First = () => {
                       <div>
                         <div className="absolute md:bottom-10 bottom-6">
                           <p className="text-xs uppercase text-white py-1">
-                            Application Fee
+                            Tuition Fee
                           </p>
                           <p className="bg-black font-semibold text-white px-8 py-1 w-fit">
-                            € 2600
+                            <span className="text-xs ">FROM: </span> 2600
                           </p>
                         </div>
                       </div>
@@ -763,10 +763,10 @@ const First = () => {
                       <div>
                         <div className="absolute md:bottom-10 bottom-6">
                           <p className="text-xs uppercase text-white py-1">
-                            Application Fee
+                            Tuition Fee
                           </p>
                           <p className="bg-black font-semibold text-white px-8 py-1 w-fit">
-                            € 3600
+                            <span className="text-xs ">FROM: </span> 3600
                           </p>
                         </div>
                       </div>

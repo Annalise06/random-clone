@@ -1,4 +1,5 @@
 import React from "react";
+import { IoLogoWhatsapp } from "react-icons/io";
 import quest from "../../../images/faq-search-shape-1.png";
 import { Link } from "react-router-dom";
 
@@ -15,9 +16,9 @@ const Section = () => {
             </p>
             <div className="md:flex flex flex-col justify-center gap-5 md:gap-10">
               <div className="flex justify-cengter">
-                <button className="text-white bg-roman-red hover:underline hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3 font-semibold">
-                  <Link to="/romania/contact">Contact Now!</Link>
-                </button>
+                <a href="https://wa.link/93tia3" className="flex gap-3 text-white bg-roman-red hover:underline hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3 font-semibold">
+                  <p>Contact Now! </p><IoLogoWhatsapp className="text-green-500 bg-white rounded-full" size={25}/>
+                </a>
               </div>
               <div className="text-center">
                 <p className="pt-2.5 underline hover:text-gray-500 cursor-pointer">Explain to us everything you need?</p>

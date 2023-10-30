@@ -30,7 +30,7 @@ const About = () => {
         <Excellence />
         <Country />
         <Questions />
-        <Sectiontwo />
+        {/* <Sectiontwo /> */}
         <Sectionthree />
         <Footer />
       </div>
