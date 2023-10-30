@@ -171,7 +171,7 @@ const Country = ({ src, alt }) => {
                     <img className="w-14" src={flag4} alt="" />
                   </div>
                   <div className="flex justify-center font-semibold pt-4">
-                    <p>Cultural Diversity</p>
+                    <p>EU-recognized Degrees</p>
                   </div>
                 </div>
 

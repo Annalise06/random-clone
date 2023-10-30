@@ -19,6 +19,7 @@ import {
   FaPinterest,
   FaInstagram,
 } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
 import { MdAccessTimeFilled } from "react-icons/md";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import "../../pages/CSS/SectionAbt.css";
@@ -60,11 +61,11 @@ const Footer = () => {
               </div>
               <div className="text-xs">
                 <p>Have a question?</p>
-                <p>
-                  Free{" "}
-                  <span className="text-white font-semibold">
-                    -091 (3313) 7535, 09040490347
-                  </span>{" "}
+                <p className="text-white">
+                <IoLogoWhatsapp className="text-green-500 bg-white rounded-full" size={15}/>
+                  <a href="https://wa.link/93tia3" className="text-white hover:text-red-500 font-semibold">
+                    -091 (3313) 7535
+                  </a>{" "},09040490347
                 </p>
               </div>
             </div>
