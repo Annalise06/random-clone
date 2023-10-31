@@ -47,10 +47,10 @@ const Footer = () => {
 
               <div>
                 <p className="font-semibold text-sm mt-2 text-center py-1 md:py-0">
-                  Approved Traveler Visa Applications.{" "}
+                  Approved Work And Study Agency.{" "}
                   <br className="lg:hidden flex" />
                   <span className="underline text-white">
-                    Get Your Visa
+                    Get our services now!
                   </span>{" "}
                 </p>
               </div>
