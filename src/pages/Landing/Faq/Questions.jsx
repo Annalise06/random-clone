@@ -83,7 +83,7 @@ const Questions = () => {
                   <p className="font-bold uppercase text-lg text-center pb-3">
                     OR
                   </p>
-                  <a href="https://wa.link/93tia3" className="flex gap-3 text-roman-red bg-white hover:underline hover:border hover:border-dotted border-roman-red fover:bg-[#202084] hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3">
+                  <a href="https://wa.link/iw1qkc" className="flex gap-3 text-roman-red bg-white hover:underline hover:border hover:border-dotted border-roman-red fover:bg-[#202084] hover:transition-all hover:ease-in-out ease-out duration-500 hover:duration-500 px-10 py-3">
                     <p> Contact Us</p> <IoLogoWhatsapp className="text-green-500" size={25}/>
                   </a>
                 </div>
