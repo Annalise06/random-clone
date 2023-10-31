@@ -63,7 +63,7 @@ const Footer = () => {
                 <p>Have a question?</p>
                 <p className="text-white">
                 <IoLogoWhatsapp className="text-green-500 bg-white rounded-full" size={15}/>
-                  <a href="https://wa.link/93tia3" className="text-white hover:text-red-500 font-semibold">
+                  <a href="https://wa.link/iw1qkc" className="text-white hover:text-red-500 font-semibold">
                     -091 (3313) 7535
                   </a>{" "},09040490347
                 </p>
